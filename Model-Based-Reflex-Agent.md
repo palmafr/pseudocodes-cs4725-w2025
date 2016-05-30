@@ -13,4 +13,4 @@ __function__ MODEL-BASED-REFLEX-AGENT(_percept_) __returns__ an action
 &emsp;__return__ _action_  
 
 ---
-__Figure__ 2.8 A model-based reflex agent. It keeps track of the current state of the world, using an internal model. It then chooses an action in the same way as the reflex agent.
+__Figure__ ?? A model-based reflex agent. It keeps track of the current state of the world, using an internal model. It then chooses an action in the same way as the reflex agent.
