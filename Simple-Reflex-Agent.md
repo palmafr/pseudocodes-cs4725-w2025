@@ -10,4 +10,4 @@ __function__ SIMPLE-REFLEX-AGENT(_percept_) __returns__ an action
 &emsp;__return__ _action_  
 
 ---
-__Figure__ 2.6 A simple reflex agent. It acts according to a rule whose condition matches the current state, as defined by the percept.
+__Figure__ ?? A simple reflex agent. It acts according to a rule whose condition matches the current state, as defined by the percept.
