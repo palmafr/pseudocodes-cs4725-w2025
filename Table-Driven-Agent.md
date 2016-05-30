@@ -10,4 +10,4 @@ __function__ TABLE-DRIVEN-AGENT(_percept_) __returns__ an action
 &emsp;__return__ _action_
 
 ---
-__Figure__ 2.3 The TABLE-DRIVEN-AGENT  program is invoked for each new percept and returns an action each time. It retains the complete percept sequence in memory.
+__Figure__ ?? The TABLE-DRIVEN-AGENT  program is invoked for each new percept and returns an action each time. It retains the complete percept sequence in memory.
