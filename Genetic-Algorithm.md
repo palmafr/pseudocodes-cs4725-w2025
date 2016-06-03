@@ -1,4 +1,4 @@
-# GENERIC-ALGORITHM
+# GENETIC-ALGORITHM
 
 ## AIMA3e
 __function__ GENETIC-ALGORITHM(_population_,FITNESS\-FN) __returns__ an individual  
