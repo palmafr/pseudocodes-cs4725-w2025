@@ -18,7 +18,7 @@ __function__ AND\-SEARCH(_states_,_problem_,_path_) __returns__ _a conditional p
 &emsp;__for each__ _s<sub>i</sub>_ __in__ _states_ __do__  
 &emsp;&emsp;&emsp;_plan<sub>i</sub>_ &larr; OR\-SEARCH(_s<sub>i</sub>_,_problem_,_path_)  
 &emsp;&emsp;&emsp;__if__ _plan<sub>i</sub>_ = _failure_ __then return__ _failure_  
-&emsp;__return__\[__if__ _s<sub>1</sub>_ __then__ _plan<sub>1</sub>_ __else if__ _s<sub>2</sub>_ __then__ _plan<sub>2</sub>_ __else__ ... __if__ _s<sub>n-1</sub>_ __then__ _plan<sub>n-1</sub>_ __else__ _plan<sub>n</sub>_\]
+&emsp;__return__ \[__if__ _s<sub>1</sub>_ __then__ _plan<sub>1</sub>_ __else if__ _s<sub>2</sub>_ __then__ _plan<sub>2</sub>_ __else__ ... __if__ _s<sub>n-1</sub>_ __then__ _plan<sub>n-1</sub>_ __else__ _plan<sub>n</sub>_\]
 
 ---
 
