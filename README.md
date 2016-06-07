@@ -29,7 +29,7 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
        <td align="center">&bull;</td>
        <td align="center"></td>
        <td><a href="Model-Based-Reflex-Agent.md">MODEL-BASED-REFLEX-AGENT</a></td>
-   </tr>  
+   </tr>
    <tr>
         <td colspan="3"><hr/></td>
    </tr>
@@ -115,4 +115,4 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
        <td><a href=""></a></td>
    </tr>
    </tbody>
-</table>   
+</table>
