@@ -36,12 +36,83 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
    <tr>
        <td align="center">&bull;</td>
        <td align="center"></td>
-       <td><a href=""></a></td>
+       <td><a href="Simple-Proble-Solving-Agent.md">SIMPLE-PROBLEM-SOLVING-AGENT</a></td>
+   </tr>
+   <tr>
+       <td align="center">&bull;</td>
+       <td align="center"></td>
+       <td><a href="Tree-Search-and-Graph-Search.md">TREE-SEARCH and GRAPH-SEARCH</a></td>
+   </tr>
+   <tr>
+       <td align="center">&bull;</td>
+       <td align="center"></td>
+       <td><a href="Breadth-First-Search.md">BREADTH-FIRST-SEARCH</a></td>
+   </tr>
+   <tr>
+       <td align="center">&bull;</td>
+       <td align="center"></td>
+       <td><a href="Uniform-Cost-Search.md">UNIFORM-COST-SEARCH</a></td>
+   </tr>
+   <tr>
+       <td align="center">&bull;</td>
+       <td align="center"></td>
+       <td><a href="Depth-Limited-Search.md">DEPTH-LIMITED-SEARCH</a></td>
+   </tr>
+   <tr>
+       <td align="center">&bull;</td>
+       <td align="center"></td>
+       <td><a href="Iterative-Deepening-Search.md">ITERATIVE-DEEPENING-SEARCH</a></td>
+   </tr>
+   <tr>
+       <td align="center">&bull;</td>
+       <td align="center"></td>
+       <td><a href="Recursive-Best-Fisrt-Search.md">RECURSIVE-BEST-FIRST-SEARCH</a></td>
+   </tr>
+   <tr>
+        <td colspan="3"><hr/></td>
+   </tr>
+   <tr>
+       <td align="center">&bull;</td>
+       <td align="center"></td>
+       <td><a href="Hill-Climbing.md">HILL-CLIMBING</a></td>
+   </tr>
+   <tr>
+       <td align="center">&bull;</td>
+       <td align="center"></td>
+       <td><a href="Simulated-Annealing.md">SIMULATED-ANNEALING</a></td>
+   </tr>
+   <tr>
+       <td align="center">&bull;</td>
+       <td align="center"></td>
+       <td><a href="Genetic-Algorithm.md">GENETIC-ALGORITHM</a></td>
+   </tr>
+   <tr>
+       <td align="center">&bull;</td>
+       <td align="center"></td>
+       <td><a href="And-Or-Graph-Search.md">AND-OR-GRAPH-SEARCH</a></td>
+   </tr>
+   <tr>
+       <td align="center">&bull;</td>
+       <td align="center"></td>
+       <td><a href="Online-DFS-Agent.md">ONLINE-DFS-AGENT</a></td>
+   </tr>
+   <tr>
+       <td align="center">&bull;</td>
+       <td align="center"></td>
+       <td><a href="LRTAStar-Agent.md">LRTA*-AGENT</a></td>
+   </tr>
+   <tr>
+        <td colspan="3"><hr/></td>
+   </tr>
+   <tr>
+       <td align="center">&bull;</td>
+       <td align="center"></td>
+       <td><a href="Minimax-Decision.md">MINIMAX-DECISION</a></td>
    </tr>
    <tr>
        <td align="center">&bull;</td>
        <td align="center"></td>
        <td><a href=""></a></td>
-   </tr>        
+   </tr>
    </tbody>
 </table>   
