@@ -36,7 +36,7 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
    <tr>
        <td align="center">&bull;</td>
        <td align="center"></td>
-       <td><a href="Simple-Proble-Solving-Agent.md">SIMPLE-PROBLEM-SOLVING-AGENT</a></td>
+       <td><a href="Simple-Problem-Solving-Agent.md">SIMPLE-PROBLEM-SOLVING-AGENT</a></td>
    </tr>
    <tr>
        <td align="center">&bull;</td>
@@ -66,7 +66,7 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
    <tr>
        <td align="center">&bull;</td>
        <td align="center"></td>
-       <td><a href="Recursive-Best-Fisrt-Search.md">RECURSIVE-BEST-FIRST-SEARCH</a></td>
+       <td><a href="Recursive-Best-First-Search.md">RECURSIVE-BEST-FIRST-SEARCH</a></td>
    </tr>
    <tr>
         <td colspan="3"><hr/></td>
