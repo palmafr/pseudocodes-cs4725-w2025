@@ -112,7 +112,7 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
    <tr>
        <td align="center">&bull;</td>
        <td align="center"></td>
-       <td><a href=""></a></td>
+       <td><a href="Alpha-Beta-Search.md">ALPHA-BETA-SEARCH</a></td>
    </tr>
    <tr>
         <td colspan="3"><hr/></td>
