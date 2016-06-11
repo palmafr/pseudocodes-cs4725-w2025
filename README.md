@@ -130,8 +130,13 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
    <tr>
        <td align="center">&bull;</td>
        <td align="center"></td>
+       <td><a href="Min-Conflicts.md">MIN-CONFLICTS</a></td>
+   </tr>  
+   <tr>
+       <td align="center">&bull;</td>
+       <td align="center"></td>
        <td><a href=""></a></td>
-   </tr>   
+   </tr>    
    <tr>
         <td colspan="3"><hr/></td>
    </tr>
