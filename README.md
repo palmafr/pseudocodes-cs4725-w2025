@@ -143,7 +143,7 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
    <tr>
        <td align="center">&bull;</td>
        <td align="center"></td>
-       <td><a href=""></a></td>
+       <td><a href="md/CYK-Parse.md"></a>CYK-PARSE</td>
    </tr>
    <tr>
         <td colspan="3"><hr/></td>
@@ -152,6 +152,14 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
        <td align="center">&bull;</td>
        <td align="center"></td>
        <td><a href="md/Monte-Carlo-Localization.md">MONTE-CARLO-LOCALIZATION</a></td>
+   </tr>
+   <tr>
+        <td colspan="3"><hr/></td>
+   </tr>
+   <tr>
+       <td align="center">&bull;</td>
+       <td align="center"></td>
+       <td><a href="md/Powers-Of-2.md">POWERS-OF-2</a></td>
    </tr>
    </tbody>
 </table>

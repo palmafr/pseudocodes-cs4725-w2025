@@ -8,7 +8,7 @@ __function__ CYK-Parse(_words_, _grammar_) __returns__ _P_, a table of probabili
 &emsp;/\* insert lexical rules for each word \*/  
 &emsp;__for__ _i_ = 1 __to__ _N_ __do__  
 &emsp;&emsp;__for__ __each__ rule of form (_X_ &rarr; _words<sub>i</sub>_[_P_]) __do__  
-&emsp;&emsp;&emsp;_P_[_X _, _i_, 1] &larr; p  
+&emsp;&emsp;&emsp;_P_[_X_, _i_, 1] &larr; p  
 &emsp;/\* Combine first and second parts of right-hand sides of rules, from short to long \*/  
 &emsp;__for__ _length_ = 2 __to__ _N_ __do__  
 &emsp;&emsp;__for__ _start_ = 1 __to__ _N_ - _length_ + 1 __do__  
