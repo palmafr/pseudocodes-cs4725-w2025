@@ -9,7 +9,7 @@ __generator__ Powers-Of-2() __yields__ ints
 
 ---
 __for__ _p_ __in__ Powers-Of-2() __do__  
-&emsp;Print(_p_)  
+&emsp;PRINT(_p_)  
 
 ---
 __Figure ??__ Example of a generator function and its invocation within a loop.
