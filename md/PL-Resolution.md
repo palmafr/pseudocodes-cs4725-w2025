@@ -3,7 +3,7 @@
 ## AIMA3e
 __function__ PL-RESOLUTION(_KB_, _&alpha;_) __returns__ _true_ or _false_  
 &emsp;__inputs__: _KB_, the knowledge base, a sentence in propositional logic  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;_&alpha;_, the query, a sentence in propositional logic  
+&emsp;&emsp;&emsp;&emsp;&emsp;_&alpha;_, the query, a sentence in propositional logic  
 
 &emsp;_clauses_ &larr; the set of clauses in the CNF representation of _KB_ &and; &not;_&alpha;_  
 &emsp;_new_ &larr; { }  
