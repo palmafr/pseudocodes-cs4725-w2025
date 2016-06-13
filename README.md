@@ -153,6 +153,11 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
    <tr>
        <td align="center">&bull;</td>
        <td align="center"></td>
+       <td><a href="md/PL-Resolution.md">PL-RESOLUTION</a></td>
+   </tr>
+   <tr>
+       <td align="center">&bull;</td>
+       <td align="center"></td>
        <td><a href=""></a></td>
    </tr>   
    <tr>
