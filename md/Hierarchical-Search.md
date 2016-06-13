@@ -9,7 +9,7 @@ __function__ HIERARCHICAL-SEARCH(_problem_, _hierarchy_) __returns__ a solution,
 &emsp;&emsp;&emsp;_hla_ &larr; the first HLA in _plan_, or _null_ if none  
 &emsp;&emsp;&emsp;_prefix_,_suffix_ &larr; the action subsequences before and after _hla_ in plan  
 &emsp;&emsp;&emsp;_outcome_ &larr; RESULT(_problem_.INITIAL\-STATE, _prefix_)  
-&emsp;&emsp;&emsp;__if__ _hla_ is null __then__ /\* so plan is primitive and _outcome_ is its result \*/  
+&emsp;&emsp;&emsp;__if__ _hla_ is null __then__ /\* so _plan_ is primitive and _outcome_ is its result \*/  
 &emsp;&emsp;&emsp;&emsp;&emsp;__if__ _outcome_ satisfies _problem_.GOAL __then return__ _plan_  
 &emsp;&emsp;&emsp;__else for each__ _sequence_ __in__ REFINEMENTS(_hla_, _outcome_, _hierarchy_)  __do__  
 &emsp;&emsp;&emsp;&emsp;&emsp;_frontier_ &larr; INSERT(APPEND(_prefix_, _sequence_, _suffix_), _frontier_)  
