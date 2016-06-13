@@ -1,4 +1,4 @@
-# HILL-CLIMBING
+# HIERARCHICAL-SEARCH
 
 ## AIMA3e
 __function__ HIERARCHICAL-SEARCH(_problem_, _hierarchy_) __returns__ a solution, or failure  
