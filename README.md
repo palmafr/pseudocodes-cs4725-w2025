@@ -159,6 +159,27 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
        <td align="center">&bull;</td>
        <td align="center"></td>
        <td><a href=""></a></td>
+   </tr>
+   <tr>
+        <td colspan="3"><hr/></td>
+   </tr>
+   <tr>
+       <td align="center">&bull;</td>
+       <td align="center"></td>
+       <td><a href=""></a></td>
+   </tr>
+   <tr>
+        <td colspan="3"><hr/></td>
+   </tr>
+   <tr>
+       <td align="center">&bull;</td>
+       <td align="center"></td>
+       <td><a href="md/Hierarchical-Search.md">HIERARCHICAL-SEARCH</a></td>
+       <tr>
+           <td align="center">&bull;</td>
+           <td align="center"></td>
+           <td><a href=""></a></td>
+       </tr>       
    </tr>   
    <tr>
         <td colspan="3"><hr/></td>
