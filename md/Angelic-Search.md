@@ -22,7 +22,7 @@ __function__ DECOMPOSE(_hierarchy_, _s<sub>0</sub>_, _plan_, _s<sub>f</sub>_) __
 &emsp;_solution_ &larr; an empty plan  
 &emsp;__while__ _plan_ is not empty __do__  
 &emsp;&emsp;&emsp;_action_ &larr; REMOVE\-LAST(_plan_)  
-&emsp;&emsp;&emsp;_s<sub>i</sub>_ &larr; a state in REACH<sup>&minus;</sup>(_s<sub>0</sub>_, _plan_) such that _s<ub>f</sub>_ &isin; REACH<sup>&minus;</sup>(_s<sub>i</sub>_, _action_)  
+&emsp;&emsp;&emsp;_s<sub>i</sub>_ &larr; a state in REACH<sup>&minus;</sup>(_s<sub>0</sub>_, _plan_) such that _s<sub>f</sub>_ &isin; REACH<sup>&minus;</sup>(_s<sub>i</sub>_, _action_)  
 &emsp;&emsp;&emsp;_problem_ &larr; a problem with INITIAL\-STATE = _s<sub>i</sub>_ and GOAL = _s<sub>f</sub>_  
 &emsp;&emsp;&emsp;_solution_ &larr; APPEND(ANGELIC-SEARCH(_problem_, _hierarchy_, _action_), _solution_)  
 &emsp;&emsp;&emsp;_s<sub>f</sub>_ &larr; _s<sub>i</sub>_  
