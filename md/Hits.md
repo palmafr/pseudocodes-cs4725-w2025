@@ -8,8 +8,8 @@ __function__ HITS(_query_) __returns__ _pages_ with hub and authority numbers
 &emsp;&emsp;_p_.Hub &larr; 1  
 &emsp;__repeat until__ convergence __do__  
 &emsp;&emsp;__for each__ _p_ __in__ _pages_ __do__  
-&emsp;&emsp;&emsp;_p_.Authority &larr; &Sigma;<sub>i</sub> Inlink<sub>i</sub>(_p_).Hub  
-&emsp;&emsp;&emsp;_p_.Hub &larr; &Sigma;<sub>i</sub> Outlink<sub>i</sub>(_p_).Authority  
+&emsp;&emsp;&emsp;_p_.Authority &larr; &sum;<sub>i</sub> Inlink<sub>i</sub>(_p_).Hub  
+&emsp;&emsp;&emsp;_p_.Hub &larr; &sum;<sub>i</sub> Outlink<sub>i</sub>(_p_).Authority  
 &emsp;&emsp;Normalize(_pages_)  
 &emsp;__return__ _pages_  
 
