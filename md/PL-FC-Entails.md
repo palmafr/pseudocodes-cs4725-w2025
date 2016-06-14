@@ -4,18 +4,18 @@
 __function__ PL-FC-ENTAILS?(_KB_, _q_) __returns__ _true_ or _false_  
 &emsp;__inputs__: _KB_, the knowledge base, a set of propositional definite clauses  
 &emsp;&emsp;&emsp;&emsp;&emsp;_q_, the query, a proposition symbol  
-&emsp;_count_ &larr; a table, where _count_[_c_] is the number of symbols in _c_'s premise  
-&emsp;_inferred_ &larr; a table, where _inferred_[_s_] is initially _false_ for all symbols  
+&emsp;_count_ &larr; a table, where _count_\[_c_\] is the number of symbols in _c_'s premise  
+&emsp;_inferred_ &larr; a table, where _inferred_\[_s_\] is initially _false_ for all symbols  
 &emsp;_agenda_ &larr; a queue of symbols, initially symbols known to be true in _KB_  
 
 &emsp;__while__ _agenda_ is not empty __do__  
 &emsp;&emsp;&emsp;_p_ &larr; POP(_agenda_)  
 &emsp;&emsp;&emsp;__if__ _p_ = _q_ __then return__ _true_  
-&emsp;&emsp;&emsp;__if__ _inferred_[_p_] = _false_ __then__  
-&emsp;&emsp;&emsp;&emsp;&emsp;_inferred_[_p_] &larr; _true_  
+&emsp;&emsp;&emsp;__if__ _inferred_\[_p_\] = _false_ __then__  
+&emsp;&emsp;&emsp;&emsp;&emsp;_inferred_\[_p_\] &larr; _true_  
 &emsp;&emsp;&emsp;&emsp;&emsp;__for each__ clause _c_ in _KB_ where _p_ is in _c_.PREMISE __do__  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;decrement _count_[_c_]  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;__if__ _count_[_c_] = 0 __then__ add _c_.CONCLUSION to _agenda_  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;decrement _count_\[_c_\]  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;__if__ _count_\[_c_\] = 0 __then__ add _c_.CONCLUSION to _agenda_  
 &emsp;return _false_  
 
 --- 
