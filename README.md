@@ -191,7 +191,15 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
    </tr>
    <tr>
         <td colspan="3"><hr/></td>
-   </tr>   
+   </tr>
+   <tr>
+       <td align="center">&bull;</td>
+       <td align="center"></td>
+       <td><a href="md/Hits.md">HITS</a></td>
+   </tr>
+   <tr>
+        <td colspan="3"><hr/></td>
+   </tr>
    <tr>
        <td align="center">&bull;</td>
        <td align="center"></td>
