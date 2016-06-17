@@ -1,4 +1,4 @@
-# DPLL-SATISFIABLE
+# DPLL-SATISFIABLE?
 
 ## AIMA3e
 __function__ DPLL-SATISFIABLE?(_s_) __returns__ _true_ or _false_  
