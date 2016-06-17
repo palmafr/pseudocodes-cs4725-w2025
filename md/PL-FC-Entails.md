@@ -1,4 +1,4 @@
-# PL-FC-ENTAILS
+# PL-FC-ENTAILS?
 
 ## AIMA3e
 __function__ PL-FC-ENTAILS?(_KB_, _q_) __returns__ _true_ or _false_  
