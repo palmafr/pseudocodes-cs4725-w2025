@@ -225,6 +225,16 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
    <tr>
        <td align="center">&bull;</td>
        <td align="center"></td>
+       <td><a href="md/Prior-Sample.md">PRIOR-SAMPLE</a></td>
+   </tr>
+   <tr>
+       <td align="center">&bull;</td>
+       <td align="center"></td>
+       <td><a href=md/Rejection-Sampling.md"">REJECTION-SAMPLING</a></td>
+   </tr>
+   <tr>
+       <td align="center">&bull;</td>
+       <td align="center"></td>
        <td><a href=""></a></td>
    </tr>
    <tr>

@@ -10,7 +10,7 @@ __function__ ELIMINATION-ASK(_X_, __e__, _bn_) __returns__ a distribution over _
 &emsp;__for each__ _var_ __in__ ORDER(_bn_.VARS) __do__  
 &emsp;&emsp;&emsp;_factors_ &larr; \[MAKE\-FACTOR(_var_, __e__) &vert; _factors_\]  
 &emsp;&emsp;&emsp;__if__ _var_ is a hidden variable __then__ _factors_ &larr; SUM\-OUT(_var_, _factors_)  
-__return__ NORMALIZE(POINTWISE\-PRODUCT(_factors_))  
+&emsp;__return__ NORMALIZE(POINTWISE\-PRODUCT(_factors_))  
 
 ---
 __Figure__ ?? The variable elimination algorithm for inference in Bayesian networks.
