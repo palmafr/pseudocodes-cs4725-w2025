@@ -230,7 +230,7 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
    <tr>
        <td align="center">&bull;</td>
        <td align="center"></td>
-       <td><a href=md/Rejection-Sampling.md"">REJECTION-SAMPLING</a></td>
+       <td><a href="md/Rejection-Sampling.md">REJECTION-SAMPLING</a></td>
    </tr>
    <tr>
        <td align="center">&bull;</td>
