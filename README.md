@@ -256,6 +256,24 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
    <tr>
        <td align="center">&bull;</td>
        <td align="center"></td>
+       <td><a href="md/Passive-ADP-Agent.md">PASSIVE-ADP-AGENT</a></td>
+   </tr>
+   <tr>
+       <td align="center">&bull;</td>
+       <td align="center"></td>
+       <td><a href="md/Passive-TD-Agent.md">PASSIVE-TD-AGENT</a></td>
+   </tr>
+   <tr>
+       <td align="center">&bull;</td>
+       <td align="center"></td>
+       <td><a href="md/Q-Learning-Agent.md">Q-LEARNING-AGENT</a></td>
+   </tr>
+   <tr>
+        <td colspan="3"><hr/></td>
+   </tr>
+   <tr>
+       <td align="center">&bull;</td>
+       <td align="center"></td>
        <td><a href="md/Hits.md">HITS</a></td>
    </tr>
    <tr>
