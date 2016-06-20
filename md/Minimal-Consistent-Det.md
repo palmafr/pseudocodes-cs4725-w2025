@@ -7,10 +7,10 @@ __function__ Minimal-Consistent-Det(_E_, _A_) __returns__ a set of attributes
 
 &emsp;__for__ _i_ = 0 __to__ _n_ __do__  
 &emsp;&emsp;&emsp;__for each__ subset _A<sub>i</sub>_ of _A_ of size _i_ __do__  
-&emsp;&emsp;&emsp;&emsp;&emsp;__if__ Consistent-Det(_A<sub>i</sub>_, _E_) __then return__ _A<sub>i</sub>_  
+&emsp;&emsp;&emsp;&emsp;&emsp;__if__ Consistent-Det?(_A<sub>i</sub>_, _E_) __then return__ _A<sub>i</sub>_  
 
 ---
-__function__ Consistent-Det(_A_, _E_) __returns__ a truth value  
+__function__ Consistent-Det?(_A_, _E_) __returns__ a truth value  
 &emsp;__inputs__: _A_, a set of attributes  
 &emsp;&emsp;&emsp;&emsp;&emsp;_E_, a set of examples  
 &emsp;__local variables__: _H_, a hash table  
