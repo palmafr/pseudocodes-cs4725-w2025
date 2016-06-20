@@ -16,7 +16,8 @@ __function__ Consistent-Det?(_A_, _E_) __returns__ a truth value
 &emsp;__local variables__: _H_, a hash table  
 
 &emsp;__for each__ example _e_ __in__ _E_ __do__  
-&emsp;&emsp;&emsp;__if__ some example in _H_ has the same values as _e_ for the attributes _A_ but a different classification __then return__ _false_  
+&emsp;&emsp;&emsp;__if__ some example in _H_ has the same values as _e_ for the attributes _A_  
+&emsp;&emsp;&emsp;&emsp;but a different classification __then return__ _false_  
 &emsp;&emsp;&emsp;store the class of _e_ in_H_, indexed by the values for attributes _A_ of the example _e_  
 &emsp;__return__ _true_  
 
