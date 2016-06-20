@@ -3,6 +3,7 @@ Pseudocode descriptions of the algorithms from [Russell](http://www.cs.berkeley.
 
 The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/master/aima3e-algorithms.pdf) contains all the algorithms from the third edition of the book. As we write the fourth edition, we will put the updated and new algorithms here:
 
+
 | AIMA3e | AIMA4e | Pseudo-code (in book)|
 |:------:|:------:|:---------------------|
 | &bull; |  | [TABLE-DRIVEN-AGENT](md/Table-Driven-Agent.md) |
