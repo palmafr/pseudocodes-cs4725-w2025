@@ -262,6 +262,29 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
        <td align="center">&bull;</td>
        <td align="center"></td>
        <td><a href=""></a></td>
+   </tr>   
+   <tr>
+        <td colspan="3"><hr/></td>
+   </tr>
+   <tr>
+       <td align="center">&bull;</td>
+       <td align="center"></td>
+       <td><a href="md/Current-Best-Learning.md">CURRENT-BEST-LEARNING</a></td>
+   </tr>
+   <tr>
+       <td align="center">&bull;</td>
+       <td align="center"></td>
+       <td><a href="md/Version-Space-Learning.md">VERSION-SPACE-LEARNING</a></td>
+   </tr>
+   <tr>
+       <td align="center">&bull;</td>
+       <td align="center"></td>
+       <td><a href="md/Minimal-Consistent-Det.md">MINIMAL-CONSISTENT-DET</a></td>
+   </tr>
+   <tr>
+       <td align="center">&bull;</td>
+       <td align="center"></td>
+       <td><a href="md/Foil.md">FOIL</a></td>
    </tr>
    <tr>
         <td colspan="3"><hr/></td>
