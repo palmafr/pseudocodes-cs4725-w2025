@@ -45,6 +45,7 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
 |<hr/>|<hr/>|<hr/>|
 | &bull; |  | [UNIFY](md/Unify.md) |
 | &bull; |  | [FOL-FC-ASK](md/FOL-FC-Ask.md) |
+| &bull; |  | [FOL-BC-ASK](md/FOL-BC-Ask.md) |
 | &bull; |  |  |
 |<hr/>|<hr/>|<hr/>|
 | &bull; |  | [HIERARCHICAL-SEARCH](md/Hierarchical-Search.md) |
