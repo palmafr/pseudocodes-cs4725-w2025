@@ -59,6 +59,7 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
 | &bull; |  | [LIKELIHOOD-WEIGHTING](md/Likelihood-Weighting.md) |
 | &bull; |  | [GIBBS-ASK](md/Gibbs-Ask.md) |
 |<hr/>|<hr/>|<hr/>|
+| &bull; |  | [FORWARD-BACKWARD](md/Forward-Backward.md) |
 | &bull; |  |  |
 |<hr/>|<hr/>|<hr/>|
 | &bull; |  |  |
