@@ -1,5 +1,7 @@
 # FIXED-LAG-SMOOTHING
 
+## AIMA3e
+
 <style>
 .nobr {
    white-space: nowrap;
@@ -14,7 +16,6 @@
 }
 </style>
 
-## AIMA3e
 __function__ FIXED-LAG-SMOOTHING(_e<sub>t</sub>_, _hmm_, _d_) __returns__ a distribution over __X__<sub>_t_&minus;_d_</sub>  
 &emsp;__inputs__: _e<sub>t</sub>_, the current evidence for time step _t_  
 &emsp;&emsp;&emsp;&emsp;&emsp;_hmm_, a hidden Markov model with _S_ &times; _S_ transition matrix __T__  
