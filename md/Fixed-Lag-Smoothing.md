@@ -22,6 +22,5 @@ __function__ FIXED-LAG-SMOOTHING(_e<sub>t</sub>_, _hmm_, _d_) __returns__ a dist
 &emsp;_t_ &larr; _t_ &plus; 1  
 &emsp;__if__ _t_ &gt; _d_ __then return__ NORMALIZE(__f__ &times; __B1__) __else return__ null  
 
-
 ---
 __Figure ??__ An algorithm for smoothing with a fixed time lag of _d_ steps, implemented as an oline algorithm that outputs the new smoothed estimate given the observation for a new time step. Notice that the final output NORMALIZE(__f__ &times; __B1__) is just &alpha; __f__ &times; __b__, by Equation (__??__).
