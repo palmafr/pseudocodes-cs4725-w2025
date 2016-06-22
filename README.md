@@ -63,6 +63,7 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
 | &bull; |  | [GIBBS-ASK](md/Gibbs-Ask.md) |
 |<hr/>|<hr/>|<hr/>|
 | &bull; |  | [FORWARD-BACKWARD](md/Forward-Backward.md) |
+| &bull; |  | [FIXED-LAG-SMOOTHING](md/Fixed-Lag-Smoothing.md) |
 | &bull; |  |  |
 |<hr/>|<hr/>|<hr/>|
 | &bull; |  |  |
