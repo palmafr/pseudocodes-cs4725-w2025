@@ -10,6 +10,7 @@ __function__ FIXED-LAG-SMOOTHING(_e<sub>t</sub>_, _hmm_, _d_) __returns__ a dist
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;__B__, the _d_\-step backward transformation matrix, initially the identity matrix  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;_e<sub>t&minus;d:t<sub>_, double\-ended list of evidence from _t_ &minus; _d_ to _t_, initially empty  
 &emsp;__local variables__: __O__<sub>_t_&minus;_d_</sub>, __O__<sub>_t_</sub>, diagonal matrices containing the sensor model information  
+
 &emsp;add _e<sub>t</sub>_ to the end of _e<sub>t&minus;d:t<sub>_  
 &emsp;__O__<sub>_t_</sub> &larr; diagonal matrix containing __P__(_e<sub>t</sub>_ &vert; _X<sub>t</sub>_)  
 &emsp;__if__ _t_ &gt; _d_ __then__  
