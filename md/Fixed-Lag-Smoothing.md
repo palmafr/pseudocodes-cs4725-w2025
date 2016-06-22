@@ -11,16 +11,18 @@ __function__ FIXED-LAG-SMOOTHING(_e<sub>t</sub>_, _hmm_, _d_) __returns__ a dist
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;_e<sub>t&minus;d:t<sub>_, double\-ended list of evidence from _t_ &minus; _d_ to _t_, initially empty  
 &emsp;__local variables__: __O__<sub>_t_&minus;_d_</sub>, __O__<sub>_t_</sub>, diagonal matrices containing the sensor model information  
 
-&emsp;add _e<sub>t</sub>_ to the end of _e<sub>t&minus;d:t<sub>_  
-&emsp;__O__<sub>_t_</sub> &larr; diagonal matrix containing __P__(_e<sub>t</sub>_ &vert; _X<sub>t</sub>_)  
-&emsp;__if__ _t_ &gt; _d_ __then__  
-&emsp;&emsp;&emsp;__f__ &larr; FORWARD(__f__, _e<sub>t</sub>_)  
-&emsp;&emsp;&emsp;  remove  _e_<sub>_t_&minus;_d_&minus;1</sub> from the beginning of _e<sub>t&minus;d:t<sub>_  
-&emsp;&emsp;&emsp;__O__<sub>_t_&minus;_d_</sub> &larr; diagonal matrix containing __P__(_e<sub>t&minus;d</sub>_ &vert; _X<sub>t&minus;d</sub>_)  
-<span>&emsp;&emsp;&emsp;<strong>B</strong> &larr; <strong>O</strong><em style="white-space: nowrap; display: inline-block;margin: -9em 0;vertical-align: -0.55em;line-height: 1.35em;font-size: 70%;text-align: left;"><sup>&minus;1</sup><sub>t&minus;d</sub></em><strong>T</strong><sup>&minus;1</sup><strong>BTO</strong><sub><em>t</em></sub></span>  
-&emsp;__else__ __B__ &larr; __BTO__<sub>_t_</sub>  
-&emsp;_t_ &larr; _t_ &plus; 1  
-&emsp;__if__ _t_ &gt; _d_ __then return__ NORMALIZE(__f__ &times; __B1__) __else return__ null  
+<div>
+&emsp;add <em>e<sub>t</sub></em> to the end of <em>e<sub>t&minus;d:t<sub></em><br/>  
+&emsp;__O__<sub>_t_</sub> &larr; diagonal matrix containing __P__(_e<sub>t</sub>_ &vert; _X<sub>t</sub>_)<br/>
+&emsp;__if__ _t_ &gt; _d_ __then__<br/>
+&emsp;&emsp;&emsp;__f__ &larr; FORWARD(__f__, _e<sub>t</sub>_)<br/>
+&emsp;&emsp;&emsp;  remove  _e_<sub>_t_&minus;_d_&minus;1</sub> from the beginning of _e<sub>t&minus;d:t<sub>_<br/>
+&emsp;&emsp;&emsp;__O__<sub>_t_&minus;_d_</sub> &larr; diagonal matrix containing __P__(_e<sub>t&minus;d</sub>_ &vert; _X<sub>t&minus;d</sub>_)<br/>
+<span>&emsp;&emsp;&emsp;<strong>B</strong> &larr; <strong>O</strong><em style="white-space: nowrap; display: inline-block;margin: -9em 0;vertical-align: -0.55em;line-height: 1.35em;font-size: 70%;text-align: left;"><sup>&minus;1</sup><sub>t&minus;d</sub></em><strong>T</strong><sup>&minus;1</sup><strong>BTO</strong><sub><em>t</em></sub></span><br/>
+&emsp;__else__ __B__ &larr; __BTO__<sub>_t_</sub><br>
+&emsp;_t_ &larr; _t_ &plus; 1<br/>
+&emsp;__if__ _t_ &gt; _d_ __then return__ NORMALIZE(__f__ &times; __B1__) __else return__ null</br>
+</div>
 
 ---
 __Figure ??__ An algorithm for smoothing with a fixed time lag of _d_ steps, implemented as an oline algorithm that outputs the new smoothed estimate given the observation for a new time step. Notice that the final output NORMALIZE(__f__ &times; __B1__) is just &alpha; __f__ &times; __b__, by Equation (__??__).
