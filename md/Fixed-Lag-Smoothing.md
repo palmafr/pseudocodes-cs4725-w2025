@@ -18,7 +18,7 @@ __function__ FIXED-LAG-SMOOTHING(_e<sub>t</sub>_, _hmm_, _d_) __returns__ a dist
 &emsp;&emsp;&emsp;<strong>f</strong> &larr; FORWARD(<strong>f</strong>, <em>e<sub>t</sub></em>)<br/>
 &emsp;&emsp;&emsp;remove <em>e</em><sub><em>t</em>&minus;<em>d</em>&minus;1</sub> from the beginning of <em>e<sub>t&minus;d:t<sub></em><br/>
 &emsp;&emsp;&emsp;<strong>O</strong><sub><em>t</em>&minus;<em>d</em></sub> &larr; diagonal matrix containing <strong>P</strong>(<em>e<sub>t&minus;d</sub></em> &vert; <em>X<sub>t&minus;d</sub></em>)<br/>
-<span>&emsp;&emsp;&emsp;<strong>B</strong> &larr; <strong>O</strong><em style="white-space: nowrap; display: inline-block;margin: -9em 0;vertical-align: -0.55em;line-height: 1.35em;font-size: 70%;text-align: left;"><sup>&minus;1</sup><sub>t&minus;d</sub></em><strong>T</strong><sup>&minus;1</sup><strong>BTO</strong><sub><em>t</em></sub></span><br/>
+<span>&emsp;&emsp;&emsp;<strong>B</strong> &larr; <strong>O</strong><em style="white-space: nowrap; display: inline-block;margin: -9em 0;vertical-align: -0.55em;line-height: 1.35em;font-size: 70%;text-align: left;">&minus;1<br/>t&minus;d</em><strong>T</strong><sup>&minus;1</sup><strong>BTO</strong><sub><em>t</em></sub></span><br/>
 &emsp;<strong>else B</strong> &larr; <strong>BTO</strong><sub><em>t</em></sub><br>
 &emsp;<em>t</em> &larr; <em>t</em> &plus; 1<br/>
 &emsp;<strong>if</strong> <em>t</em> &gt; <em>d</em> <strong>then return</strong> NORMALIZE(<strong>f</strong> &times; <strong>B1</strong>) <strong>else return</strong> null</br>
