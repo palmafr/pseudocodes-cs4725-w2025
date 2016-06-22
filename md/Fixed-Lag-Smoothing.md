@@ -17,7 +17,7 @@ __function__ FIXED-LAG-SMOOTHING(_e<sub>t</sub>_, _hmm_, _d_) __returns__ a dist
 &emsp;&emsp;&emsp;__f__ &larr; FORWARD(__f__, _e<sub>t</sub>_)  
 &emsp;&emsp;&emsp;  remove  _e_<sub>_t_&minus;_d_&minus;1</sub> from the beginning of _e<sub>t&minus;d:t<sub>_  
 &emsp;&emsp;&emsp;__O__<sub>_t_&minus;_d_</sub> &larr; diagonal matrix containing __P__(_e<sub>t&minus;d</sub>_ &vert; _X<sub>t&minus;d</sub>_)  
-&emsp;&emsp;&emsp;__B__ &larr; <span style="white-space: nowrap;">__O__<span style="display: inline-block;margin: -9em 0;vertical-align: -0.55em;line-height: 1.35em;font-size: 70%;text-align: left;"><sup>&minus;1</sup><sub>_t_&minus;_d_</sub></span></span>__T__<sup>&minus;1</sup>__BTO__<sub>_t_</sub>  
+<span>&emsp;&emsp;&emsp;<strong>B</strong> &larr; <span style="white-space: nowrap;"><strong>O</strong><span style="display: inline-block;margin: -9em 0;vertical-align: -0.55em;line-height: 1.35em;font-size: 70%;text-align: left;"><sup>&minus;1</sup><sub><em>t</em>&minus;<em>d</em></sub></span></span><strong>T<strong><sup>&minus;1</sup><strong>BTO<strong><sub><em>t</em></sub></span>
 &emsp;__else__ __B__ &larr; __BTO__<sub>_t_</sub>  
 &emsp;_t_ &larr; _t_ &plus; 1  
 &emsp;__if__ _t_ &gt; _d_ __then return__ NORMALIZE(__f__ &times; __B1__) __else return__ null  
