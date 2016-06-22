@@ -14,7 +14,7 @@ __function__ FIXED-LAG-SMOOTHING(_e<sub>t</sub>_, _hmm_, _d_) __returns__ a dist
 <div>
 &emsp;add <em>e<sub>t</sub></em> to the end of <em>e<sub>t&minus;d:t<sub></em><br/>  
 &emsp;<strong>O</strong><sub><em>t</em></sub> &larr; diagonal matrix containing <strong>P</strong>(<em>e<sub>t</sub></em> &vert; <em>X<sub>t</sub></em>)<br/>
-&emsp;<strong>if<strong> <em>t</em> &gt; <em>d</em> <strong>then</strong><br/>
+&emsp;<strong>if</strong> <em>t</em> &gt; <em>d</em> <strong>then</strong><br/>
 &emsp;&emsp;&emsp;<strong>f</strong> &larr; FORWARD(<strong>f</strong>, <em>e<sub>t</sub></em>)<br/>
 &emsp;&emsp;&emsp;remove <em>e</em><sub><em>t</em>&minus;<em>d</em>&minus;1</sub> from the beginning of <em>e<sub>t&minus;d:t<sub></em><br/>
 &emsp;&emsp;&emsp;__O__<sub>_t_&minus;_d_</sub> &larr; diagonal matrix containing __P__(_e<sub>t&minus;d</sub>_ &vert; _X<sub>t&minus;d</sub>_)<br/>
