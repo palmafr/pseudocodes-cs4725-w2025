@@ -1,4 +1,5 @@
 <head>
+
 <style>
 .nobr {
    white-space: nowrap;
@@ -12,6 +13,7 @@
   text-align: left;
 }
 </style>
+
 </head>
 
 # FIXED-LAG-SMOOTHING
