@@ -13,10 +13,10 @@ __function__ FIXED-LAG-SMOOTHING(_e<sub>t</sub>_, _hmm_, _d_) __returns__ a dist
 
 <div>
 &emsp;add <em>e<sub>t</sub></em> to the end of <em>e<sub>t&minus;d:t<sub></em><br/>  
-&emsp;__O__<sub>_t_</sub> &larr; diagonal matrix containing __P__(_e<sub>t</sub>_ &vert; _X<sub>t</sub>_)<br/>
-&emsp;__if__ _t_ &gt; _d_ __then__<br/>
-&emsp;&emsp;&emsp;__f__ &larr; FORWARD(__f__, _e<sub>t</sub>_)<br/>
-&emsp;&emsp;&emsp;  remove  _e_<sub>_t_&minus;_d_&minus;1</sub> from the beginning of _e<sub>t&minus;d:t<sub>_<br/>
+&emsp;<strong>O</strong><sub><em>t</em></sub> &larr; diagonal matrix containing <strong>P</strong>(<em>e<sub>t</sub></em> &vert; <em>X<sub>t</sub></em>)<br/>
+&emsp;<strong>if<strong> <em>t</em> &gt; <em>d</em> <strong>then</strong><br/>
+&emsp;&emsp;&emsp;<strong>f</strong> &larr; FORWARD(<strong>f</strong>, <em>e<sub>t</sub></em>)<br/>
+&emsp;&emsp;&emsp;remove <em>e</em><sub><em>t</em>&minus;<em>d</em>&minus;1</sub> from the beginning of <em>e<sub>t&minus;d:t<sub></em><br/>
 &emsp;&emsp;&emsp;__O__<sub>_t_&minus;_d_</sub> &larr; diagonal matrix containing __P__(_e<sub>t&minus;d</sub>_ &vert; _X<sub>t&minus;d</sub>_)<br/>
 <span>&emsp;&emsp;&emsp;<strong>B</strong> &larr; <strong>O</strong><em style="white-space: nowrap; display: inline-block;margin: -9em 0;vertical-align: -0.55em;line-height: 1.35em;font-size: 70%;text-align: left;"><sup>&minus;1</sup><sub>t&minus;d</sub></em><strong>T</strong><sup>&minus;1</sup><strong>BTO</strong><sub><em>t</em></sub></span><br/>
 &emsp;__else__ __B__ &larr; __BTO__<sub>_t_</sub><br>
