@@ -9,4 +9,4 @@ __function__ HILL-CLIMBING(_problem_) __returns__ a state that is a local maximu
 &emsp;&emsp;&emsp;_current_ &larr; _neighbor_
 
 ---
-__Figure__ ?? The hill\-climbing search algorithm, which is the most basic local search technique. At each step the current node is replaced by the best neighbor; in this version, that means the neighbor with the highest VALUE, but if a heuristic cost estimate _h_ is used, we would find the neighbor with the lowest _h_.
+__Figure ??__ The hill\-climbing search algorithm, which is the most basic local search technique. At each step the current node is replaced by the best neighbor; in this version, that means the neighbor with the highest VALUE, but if a heuristic cost estimate _h_ is used, we would find the neighbor with the lowest _h_.

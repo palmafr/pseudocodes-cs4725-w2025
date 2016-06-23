@@ -64,7 +64,7 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
 |<hr/>|<hr/>|<hr/>|
 | &bull; |  | [FORWARD-BACKWARD](md/Forward-Backward.md) |
 | &bull; |  | [FIXED-LAG-SMOOTHING](md/Fixed-Lag-Smoothing.md) |
-| &bull; |  |  |
+| &bull; |  | [PARTICLE-FILTERING](md/Particle-Filtering.md) |
 |<hr/>|<hr/>|<hr/>|
 | &bull; |  |  |
 |<hr/>|<hr/>|<hr/>|
