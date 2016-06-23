@@ -2,9 +2,9 @@
 
 ## AIMA3e
 __function__ PARTICLE-FILTERING(__e__, _N_, _dbn_) __returns__ a set of samples for the next time step  
-&emsp;__inputs__:&emsp;__e__, the new incoming evidence  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;_N_, the number of samples to be maintained  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;_dbn_, a DBN with prior __P__(__X<sub>0</sub>__), transition model __P__(__X<sub>1</sub>__ &vert; __X<sub>0</sub>__), sensor model __P__(__E<sub>1</sub>__ &vert; __X<sub>1</sub>__)  
+&emsp;__inputs__: __e__, the new incoming evidence  
+&emsp;&emsp;&emsp;&emsp;&emsp;_N_, the number of samples to be maintained  
+&emsp;&emsp;&emsp;&emsp;&emsp;_dbn_, a DBN with prior __P__(__X<sub>0</sub>__), transition model __P__(__X<sub>1</sub>__ &vert; __X<sub>0</sub>__), sensor model __P__(__E<sub>1</sub>__ &vert; __X<sub>1</sub>__)  
 &emsp;__persistent__: _S_, a vector of samples of size _N_, initially generated from __P__(__X<sub>0</sub>__)  
 &emsp;__local variables__: _W_, a vector of weights of size _N_  
 
