@@ -11,7 +11,7 @@ __function__ PARTICLE-FILTERING(__e__, _N_, _dbn_) __returns__ a set of samples 
 &emsp;__for__ _i_ = 1 to _N_ __do__  
 &emsp;&emsp;&emsp;_S_\[_i_\] &larr; sample from __P__(__X<sub>1</sub>__ &vert; __X<sub>0</sub>__ = _S_\[_i_\])&emsp;/\* step 1 \*/  
 &emsp;&emsp;&emsp;_W_\[_i_\] &larr; __P__(__e__ &vert; __X<sub>1</sub>__ = _S_\[_i_\])&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;/\* step 2 \*/  
-&emsp;_S_ &larr; WEIGHTED\-SAMPLE\-WITH\-REPLACEMENT(_N_, _S_, _W_) /\* step 3 \*/  
+&emsp;_S_ &larr; WEIGHTED\-SAMPLE\-WITH\-REPLACEMENT(_N_, _S_, _W_)&emsp;&emsp;/\* step 3 \*/  
 &emsp;__return__ _S_  
 
 ---
