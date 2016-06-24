@@ -66,6 +66,8 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
 | &bull; |  | [FIXED-LAG-SMOOTHING](md/Fixed-Lag-Smoothing.md) |
 | &bull; |  | [PARTICLE-FILTERING](md/Particle-Filtering.md) |
 |<hr/>|<hr/>|<hr/>|
+| &bull; |  | [INFORMATION-GATHERING-AGENT](md/Information-Gathering-Agent.md) |
+|<hr/>|<hr/>|<hr/>|
 | &bull; |  |  |
 |<hr/>|<hr/>|<hr/>|
 | &bull; |  | [CURRENT-BEST-LEARNING](md/Current-Best-Learning.md) |
