@@ -70,6 +70,7 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
 |<hr/>|<hr/>|<hr/>|
 | &bull; |  | [VALUE-ITERATION](md/Value-Iteration.md) |
 | &bull; |  |  |
+| &bull; |  | [POMDP-VALUE-ITERATION](md/POMDP-Value-Iteration.md) |
 |<hr/>|<hr/>|<hr/>|
 | &bull; |  |  |
 |<hr/>|<hr/>|<hr/>|
