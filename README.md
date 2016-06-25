@@ -68,6 +68,8 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
 |<hr/>|<hr/>|<hr/>|
 | &bull; |  | [INFORMATION-GATHERING-AGENT](md/Information-Gathering-Agent.md) |
 |<hr/>|<hr/>|<hr/>|
+| &bull; |  | [VALUE-ITERATION](md/Value-Iteration.md) |
+|<hr/>|<hr/>|<hr/>|
 | &bull; |  |  |
 |<hr/>|<hr/>|<hr/>|
 | &bull; |  | [CURRENT-BEST-LEARNING](md/Current-Best-Learning.md) |
