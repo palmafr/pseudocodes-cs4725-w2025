@@ -14,4 +14,4 @@ __function__ GRAPHPLAN(_problem_) __returns__ solution or failure
 &emsp;&emsp;&emsp;_graph_ &larr; EXPAND\-GRAPH(_graph_, _problem_)
 
 ---
-__Figure__ ?? The GRAPHPLAN algorithm. GRAPHPLAN calls EXPAND-GRAPH to add a level until either a solution is found by EXTRACT-SOLUTION, or no solution is possible.
+__Figure ??__ The GRAPHPLAN algorithm. GRAPHPLAN calls EXPAND-GRAPH to add a level until either a solution is found by EXTRACT-SOLUTION, or no solution is possible.
