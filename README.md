@@ -69,7 +69,7 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
 | &bull; |  | [INFORMATION-GATHERING-AGENT](md/Information-Gathering-Agent.md) |
 |<hr/>|<hr/>|<hr/>|
 | &bull; |  | [VALUE-ITERATION](md/Value-Iteration.md) |
-| &bull; |  |  |
+| &bull; |  | [POLICY-ITERATION](md/Policy-Iteration.md) |
 | &bull; |  | [POMDP-VALUE-ITERATION](md/POMDP-Value-Iteration.md) |
 |<hr/>|<hr/>|<hr/>|
 | &bull; |  |  |
