@@ -1,4 +1,4 @@
-# GRAPH-PLAN
+# GRAPHPLAN
 
 ## AIMA3e
 __function__ GRAPHPLAN(_problem_) __returns__ solution or failure  
