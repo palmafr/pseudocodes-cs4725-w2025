@@ -48,7 +48,7 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
 | &bull; |  | [FOL-BC-ASK](md/FOL-BC-Ask.md) |
 | &bull; |  | [APPEND](md/Append.md) |
 |<hr/>|<hr/>|<hr/>|
-| &bull; |  |  |
+| &bull; |  | [GRAPHPLAN](md/GraphPlan.md) |
 |<hr/>|<hr/>|<hr/>|
 | &bull; |  | [HIERARCHICAL-SEARCH](md/Hierarchical-Search.md) |
 | &bull; |  | [ANGELIC-SEARCH](md/Angelic-Search.md) |
