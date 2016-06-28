@@ -76,7 +76,7 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
 | &bull; |  | [CROSS-VALIDATION-WRAPPER](md/Cross-Validation-Wrapper.md) |
 | &bull; |  | [DECISION-LIST-LEARNING](md/Decision-List-Learning.md) |
 | &bull; |  | [BACK-PROP-LEARNING](md/Back-Prop-Learning.md) |
-| &bull; |  |  |
+| &bull; |  | [ADABOOST](md/AdaBoost.md) |
 |<hr/>|<hr/>|<hr/>|
 | &bull; |  | [CURRENT-BEST-LEARNING](md/Current-Best-Learning.md) |
 | &bull; |  | [VERSION-SPACE-LEARNING](md/Version-Space-Learning.md) |
