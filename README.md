@@ -74,6 +74,7 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
 |<hr/>|<hr/>|<hr/>|
 | &bull; |  | [DECISION-TREE-LEARNING](md/Decision-Tree-Learning.md) |
 | &bull; |  | [CROSS-VALIDATION-WRAPPER](md/Cross-Validation-Wrapper.md) |
+| &bull; |  | [DECISION-LIST-LEARNING](md/Decision-List-Learning.md) |
 | &bull; |  |  |
 |<hr/>|<hr/>|<hr/>|
 | &bull; |  | [CURRENT-BEST-LEARNING](md/Current-Best-Learning.md) |
