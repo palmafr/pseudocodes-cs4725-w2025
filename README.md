@@ -73,6 +73,7 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
 | &bull; |  | [POMDP-VALUE-ITERATION](md/POMDP-Value-Iteration.md) |
 |<hr/>|<hr/>|<hr/>|
 | &bull; |  | [DECISION-TREE-LEARNING](md/Decision-Tree-Learning.md) |
+| &bull; |  | [CROSS-VALIDATION-WRAPPER](md/Cross-Validation-Wrapper.md) |
 | &bull; |  |  |
 |<hr/>|<hr/>|<hr/>|
 | &bull; |  | [CURRENT-BEST-LEARNING](md/Current-Best-Learning.md) |
