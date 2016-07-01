@@ -17,4 +17,4 @@ __function__ TREE-CSP-SOLVER(_csp_) __returns__ a solution, or failure
 &emsp;__return__ _assignment_
 
 ---
-__Figure__ ?? The TREE-CSP-SOLVER algorithm for solving tree\-structured CSPs. If the CSP has a solution, we will find it in linear time; if not, we will detect a contradiction.
+__Figure ??__ The TREE-CSP-SOLVER algorithm for solving tree\-structured CSPs. If the CSP has a solution, we will find it in linear time; if not, we will detect a contradiction.
