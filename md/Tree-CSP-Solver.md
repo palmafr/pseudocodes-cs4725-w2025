@@ -7,7 +7,7 @@ __function__ TREE-CSP-SOLVER(_csp_) __returns__ a solution, or failure
 &emsp;_n_ &larr; number of variables in _X_  
 &emsp;_assignment_ &larr; an empty assignment  
 &emsp;_root_ &larr; any variable in _X_  
-&emsp;_X_ TOPOLOGICALSORT(_X_, _root_)  
+&emsp;_X_ &larr; TOPOLOGICALSORT(_X_, _root_)  
 &emsp;__for__ _j_ = _n_ __down to__ 2 __do__  
 &emsp;&emsp;MAKE\-ARC\-CONSISTENT(PARENT(_X<sub>j</sub>_), _X<sub>j</sub>_)  
 &emsp;&emsp;__if__ it cannot be made consistent __then return__ _failure_  
