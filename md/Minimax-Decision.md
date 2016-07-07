@@ -2,7 +2,7 @@
 
 ## AIMA3e
 __function__ MINIMAX-DECISION(_state_) __returns__ _an action_  
-&emsp;__return__ arg max<sub> _a_ &Element; ACTIONS(s)</sub> MIN\-VALUE(RESULT(_state_, _a_))  
+&emsp;__return__ arg max<sub> _a_ &Element; ACTIONS(_s_)</sub> MIN\-VALUE(RESULT(_state_, _a_))  
 
 ---
 __function__ MAX\-VALUE(_state_) __returns__ _a utility value_  
