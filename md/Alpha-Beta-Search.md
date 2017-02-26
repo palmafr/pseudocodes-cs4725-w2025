@@ -22,7 +22,7 @@ __function__ MIN\-VALUE(_state_, _&alpha;_, _&beta;_) __returns__ _a utility val
 &emsp;__for each__ _a_ __in__ ACTIONS(_state_) __do__  
 &emsp;&emsp;&emsp;_v_ &larr; MIN(_v_, MAX\-VALUE(RESULT(_s_, _a_), _&alpha;_, _&beta;_))  
 &emsp;&emsp;&emsp;__if__ _v_ &le; _&alpha;_ __then return__ _v_  
-&emsp;&emsp;&emsp;_&beta;_ &larr; MIN(_&beta;_ _v_)  
+&emsp;&emsp;&emsp;_&beta;_ &larr; MIN(_&beta;_, _v_)  
 &emsp;__return__ _v_  
 
 
