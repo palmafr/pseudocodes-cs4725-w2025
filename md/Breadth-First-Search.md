@@ -2,7 +2,7 @@
 
 ## AIMA3e
 __function__ BREADTH-FIRST-SEARCH(_problem_) __returns__ a solution, or failure  
-&emsp;_node_ &larr; a node with STATE = _problem_.INITIAL\-STATE, PATH\-COST = 0  
+&emsp;_node_ &larr; a node with STATE = _problem_.INITIAL\-STATE 
 &emsp;__if__ _problem_.GOAL\-TEST(_node_.STATE) __then return__ SOLUTION(_node_)  
 &emsp;_frontier_ &larr; a FIFO queue with _node_ as the only element  
 &emsp;_explored_ &larr; an empty set  
