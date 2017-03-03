@@ -10,7 +10,7 @@ __function__ ONLINE-DFS-AGENT(_s'_) __returns__ an action
 
 &emsp;__if__ GOAL\-TEST(_s'_) __then return__ _stop_  
 &emsp;__if__ _s'_ is a new state (not in _untried_) __then__ _untried_\[_s'_\] &larr; ACTIONS(_s'_)  
-&emsp;__if__ _s_ is not null __then__  
+&emsp;__if__ _s_ is not null and _s'_ != _result_\[_s_, _a_\] __then__  
 &emsp;&emsp;&emsp;_result_\[_s_, _a_\] &larr; _s'_  
 &emsp;&emsp;&emsp;add _s_ to front of _unbacktracked_\[_s'_\]  
 &emsp;__if__ _untried_\[_s'_\] is empty __then__  

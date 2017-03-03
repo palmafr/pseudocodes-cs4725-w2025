@@ -9,7 +9,7 @@ __function__ MAX\-VALUE(_state_) __returns__ _a utility value_
 &emsp;__if__ TERMINAL\-TEST(_state_) __the return__ UTILITY(_state_)  
 &emsp;_v_ &larr; &minus;&infin;  
 &emsp;__for each__ _a_ __in__ ACTIONS(_state_) __do__  
-&emsp;&emsp;&emsp;_v_ &larr; MAX(_v_, MIN\-VALUE(RESULT(_s_, _a_)))  
+&emsp;&emsp;&emsp;_v_ &larr; MAX(_v_, MIN\-VALUE(RESULT(_state_, _a_)))  
 &emsp;__return__ _v_  
 
 ---
@@ -17,7 +17,7 @@ __function__ MIN\-VALUE(_state_) __returns__ _a utility value_
 &emsp;__if__ TERMINAL\-TEST(_state_) __the return__ UTILITY(_state_)  
 &emsp;_v_ &larr; &infin;  
 &emsp;__for each__ _a_ __in__ ACTIONS(_state_) __do__  
-&emsp;&emsp;&emsp;_v_ &larr; MIN(_v_, MAX\-VALUE(RESULT(_s_, _a_)))  
+&emsp;&emsp;&emsp;_v_ &larr; MIN(_v_, MAX\-VALUE(RESULT(_state_, _a_)))  
 &emsp;__return__ _v_  
 
 ---
