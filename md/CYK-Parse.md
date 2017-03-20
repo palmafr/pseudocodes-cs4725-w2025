@@ -3,7 +3,7 @@
 ## AIMA3e
 __function__ CYK-Parse(_words_, _grammar_) __returns__ _P_, a table of probabilities  
 &emsp;_N_ &larr; Length(_words_)  
-&emsp;_M_ &larr; the number of nonterminal sumbols in _grammar_  
+&emsp;_M_ &larr; the number of nonterminal symbols in _grammar_  
 &emsp;_P_ &larr; an array of size [_M_, _N_, _N_], initially all 0  
 &emsp;/\* insert lexical rules for each word \*/  
 &emsp;__for__ _i_ = 1 __to__ _N_ __do__  
