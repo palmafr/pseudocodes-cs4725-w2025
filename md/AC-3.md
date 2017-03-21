@@ -23,4 +23,4 @@ __function__ REVISE(_csp_, _X<sub>i</sub>_, _X<sub>j</sub>_) __returns__ true if
 &emsp;__return__ _revised_  
 
 ---
-__Figure__ ?? The arc\-consistency algorithm AC\-3. After applying AC\-3, either every arc is arc\-consistent, or some variable has an empty domain, indicating that the CSP cannot be solved. The name "AC\-3" was used by the algorithm's inventor (?) because it's the third version developed in the paper.
+__Figure__ ?? The arc\-consistency algorithm AC\-3. After applying AC\-3, either every arc is arc\-consistent, or some variable has an empty domain, indicating that the CSP cannot be solved. The name "AC\-3" was used by the algorithm's inventor (Mackworth, 1977) because it's the third version developed in the paper.
