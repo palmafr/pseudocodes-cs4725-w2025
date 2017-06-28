@@ -14,4 +14,4 @@ __function__ HITS(_query_) __returns__ _pages_ with hub and authority numbers
 &emsp;__return__ _pages_  
 
 ---
-__Figure ??__ The HITS algorithm for computing hubs and authorities with respect to a query. Relevant-Pages fetches the pages that match the query, and Expand-Pages adds in every page that links to or is linked from one of the relevant pages. Normalize divides each page's score by the sum of the squares of all pages' scores (separately for both the authority and hubs scores).
+__Figure ??__ The HITS algorithm for computing hubs and authorities with respect to a query. Relevant-Pages fetches the pages that match the query, and Expand-Pages adds in every page that links to or is linked from one of the relevant pages. Normalize divides each page's score by the square root of sum of the squares of all pages' scores (separately for both the authority and hubs scores).
