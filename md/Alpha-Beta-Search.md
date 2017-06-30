@@ -7,7 +7,7 @@ __function__ ALPHA-BETA-SEARCH(_state_) __returns__ an action
 
 ---
 __function__ MAX\-VALUE(_state_, _&alpha;_, _&beta;_) __returns__ _a utility value_  
-&emsp;__if__ TERMINAL\-TEST(_state_) __the return__ UTILITY(_state_)  
+&emsp;__if__ TERMINAL\-TEST(_state_) __then return__ UTILITY(_state_)  
 &emsp;_v_ &larr; &minus;&infin;  
 &emsp;__for each__ _a_ __in__ ACTIONS(_state_) __do__  
 &emsp;&emsp;&emsp;_v_ &larr; MAX(_v_, MIN\-VALUE(RESULT(_state_, _a_), _&alpha;_, _&beta;_))  
@@ -17,7 +17,7 @@ __function__ MAX\-VALUE(_state_, _&alpha;_, _&beta;_) __returns__ _a utility val
 
 ---
 __function__ MIN\-VALUE(_state_, _&alpha;_, _&beta;_) __returns__ _a utility value_  
-&emsp;__if__ TERMINAL\-TEST(_state_) __the return__ UTILITY(_state_)  
+&emsp;__if__ TERMINAL\-TEST(_state_) __then return__ UTILITY(_state_)  
 &emsp;_v_ &larr; &plus;&infin;  
 &emsp;__for each__ _a_ __in__ ACTIONS(_state_) __do__  
 &emsp;&emsp;&emsp;_v_ &larr; MIN(_v_, MAX\-VALUE(RESULT(_state_, _a_), _&alpha;_, _&beta;_))  
