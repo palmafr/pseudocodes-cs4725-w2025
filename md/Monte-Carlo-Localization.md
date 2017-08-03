@@ -15,13 +15,13 @@ __function__ MONTE-CARLO-LOCALIZATION(_a_, _z_, _N_, _P_(_X'_|_X_, _v_, _w_), _P
 &emsp;__if__ _S_ is empty __then__&emsp;&emsp;&emsp;/\* initialization phase \*/  
 &emsp;&emsp;&emsp;__for__ _i_ = 1 to _N_ __do__  
 &emsp;&emsp;&emsp;&emsp;&emsp;_S_[_i_] &larr; sample from _P_(_X<sub>0</sub>_)  
-&emsp;&emsp;&emsp;__for__ _i_ = 1 to _N_ __do__&emsp;&emsp;/\* update cycle \*/  
-&emsp;&emsp;&emsp;&emsp;&emsp;_S'_[_i_] &larr; sample from _P_(_X'_|_X_ = _S_[_i_], _v_, _w_)  
-&emsp;&emsp;&emsp;&emsp;&emsp;_W'_[_i_] &larr; 1  
-&emsp;&emsp;&emsp;&emsp;&emsp;__for__ _j_ = 1 to _M_ __do__  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;_z_\* &larr; RAYCAST(_j_, _X_ = _S'_[_i_], _m_)  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;_W'_[_i_] &larr; _W'_[_i_] . _P_(_z<sub>j</sub>_|_z\*_)  
-&emsp;&emsp;&emsp;_S_ &larr; WEIGHTED-SAMPLE-WITH-REPLACEMENT(_N_, _S'_, _W'_)  
+&emsp;&emsp;__for__ _i_ = 1 to _N_ __do__&emsp;&emsp;/\* update cycle \*/  
+&emsp;&emsp;&emsp;&emsp;_S'_[_i_] &larr; sample from _P_(_X'_|_X_ = _S_[_i_], _v_, _w_)  
+&emsp;&emsp;&emsp;&emsp;_W'_[_i_] &larr; 1  
+&emsp;&emsp;&emsp;__for__ _j_ = 1 to _M_ __do__  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;_z_\* &larr; RAYCAST(_j_, _X_ = _S'_[_i_], _m_)  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;_W'_[_i_] &larr; _W'_[_i_] . _P_(_z<sub>j</sub>_|_z\*_)  
+&emsp;&emsp;_S_ &larr; WEIGHTED-SAMPLE-WITH-REPLACEMENT(_N_, _S'_, _W'_)  
 &emsp;__return__ _S_  
 
 ---
