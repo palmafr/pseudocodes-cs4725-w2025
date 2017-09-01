@@ -21,7 +21,7 @@ __function__ GENETIC-ALGORITHM(_population_,FITNESS\-FN) __returns__ an individu
 __function__ REPRODUCE(_x_, _y_) __returns__ an individual  
 &emsp;__inputs__: _x_,_y_, parent individuals  
 
-&emsp;_n_ &larr; LENGTH(_x_); _c_ &larr; random number from 1 to _n_  
+&emsp;_n_ &larr; LENGTH(_x_); _c_ &larr; random number from 0 to _n_  
 &emsp;__return__ APPEND(SUBSTRING(_x_, 1, _c_),SUBSTRING(_y_, _c_+1, _n_))  
 
 ---
