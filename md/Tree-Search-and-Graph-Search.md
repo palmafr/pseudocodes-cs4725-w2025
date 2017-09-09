@@ -2,6 +2,21 @@
 
 
 ## AIMA4e
+
+_Two versions, at different levels of English-like versus code-like._  
+
+__function__ GENERIC-SEARCH(_problem_) __returns__ a solution, or failure  
+&emsp;_frontier_ &larr; a queue containing one path, to the initial state of _problem_  
+&emsp;_solution_ &larr; Failure  
+&emsp;__while__  _solution_ can possibly be improved __do__  
+&emsp;&emsp;&emsp;_parent_ &larr; pop the top path from _frontier_  
+&emsp;&emsp;&emsp;__for__ _child_ __in__ successors(_parent_) __do__   
+&emsp;&emsp;&emsp;&emsp;&emsp;__if__ _child_ not seen before or cost(_child_) < cost(previous path to _child_'s state) __then__  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;add _child_ to _frontier_  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;__if__ cost(_child_) < cost(_solution_) __then__  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;_solution_  =  _child_  
+&emsp;__return__ _solution_
+
 __function__ GENERIC-SEARCH(_problem_) __returns__ a solution, or failure  
 &emsp;_frontier_ &larr; a queue containing one path, to the initial state of _problem_  
 &emsp;_explored_ &larr; &empty;  
