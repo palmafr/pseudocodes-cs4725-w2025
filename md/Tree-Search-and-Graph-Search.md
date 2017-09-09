@@ -1,5 +1,20 @@
 # TREE-SEARCH and GRAPH-SEARCH
 
+
+## AIMA4e
+__function__ GENERIC-SEARCH(_problem_) __returns__ a solution, or failure  
+&emsp;_frontier_ &larr; a queue with one node, the initial state of _problem_  
+&emsp;_explored_ &larr; &empty;  
+&emsp;_solution_ &larr; Failure  
+&emsp;__while__  _solution_ cannot possibly be improved __do__  
+&emsp;&emsp;&emsp;_p_ &larr; pop the top node from _frontier_  
+&emsp;&emsp;&emsp;__for__ _c_ __in__ _problem_.successors(_p_) __do__   
+&emsp;&emsp;&emsp;&emsp;&emsp;__if__ _c_ not in _explored_ or cost(_c_) < cost(previous path to _c_.state) __then__  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;add _c_ to _frontier_ and to _explored_  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;__if__ cost(_c_) < cost(_solution_) __then__  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;_solution_  =  _c_  
+&emsp;__return__ _solution_
+
 ## AIMA3e
 __function__ TREE-SEARCH(_problem_) __returns__ a solution, or failure  
 &emsp;initialize the frontier using the initial state of _problem_  
