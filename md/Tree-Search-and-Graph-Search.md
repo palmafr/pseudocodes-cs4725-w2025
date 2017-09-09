@@ -3,17 +3,24 @@
 
 ## AIMA4e
 __function__ GENERIC-SEARCH(_problem_) __returns__ a solution, or failure  
-&emsp;_frontier_ &larr; a queue with one node, the initial state of _problem_  
+&emsp;_frontier_ &larr; a queue containing one path, to the initial state of _problem_  
 &emsp;_explored_ &larr; &empty;  
 &emsp;_solution_ &larr; Failure  
-&emsp;__while__  _solution_ cannot possibly be improved __do__  
-&emsp;&emsp;&emsp;_p_ &larr; pop the top node from _frontier_  
+&emsp;__while__  _solution_ can possibly be improved __do__  
+&emsp;&emsp;&emsp;_p_ &larr; pop the top path from _frontier_  
 &emsp;&emsp;&emsp;__for__ _c_ __in__ _problem_.successors(_p_) __do__   
 &emsp;&emsp;&emsp;&emsp;&emsp;__if__ _c_ not in _explored_ or cost(_c_) < cost(previous path to _c_.state) __then__  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;add _c_ to _frontier_ and to _explored_  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;__if__ cost(_c_) < cost(_solution_) __then__  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;_solution_  =  _c_  
 &emsp;__return__ _solution_
+
+---
+__Figure__ ?? In the GENERIC-SEARCH algorithm, we keep track of the best _solution_ found so far, as well as a set of states that we have already _explored_, and a _frontier_ of paths from which we will choose 
+the next path to expand.
+In any specific search algorithm, we specify (1) the criteria for ordering the paths in the frontier,
+and (2) the procedure for determining when it is no longer possible to improve on a solution.
+
 
 ## AIMA3e
 __function__ TREE-SEARCH(_problem_) __returns__ a solution, or failure  
