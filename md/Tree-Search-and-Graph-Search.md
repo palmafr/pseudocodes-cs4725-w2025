@@ -19,7 +19,7 @@ __function__ GENERIC-SEARCH(_problem_) __returns__ a solution, or failure
 
 __function__ GENERIC-SEARCH(_problem_) __returns__ a solution, or failure  
 &emsp;_frontier_ &larr; a queue containing one path, to the initial state of _problem_  
-&emsp;_reached_ &larr; `{}`    // _An empty  mapping of_ `{state: best-path-to-state}`  
+&emsp;_reached_ &larr; { }    // _An empty  mapping of_ {state: best-path-to-state}  
 &emsp;_solution_ &larr; Failure  
 &emsp;__while__  _solution_ can possibly be improved __do__  
 &emsp;&emsp;&emsp;_p_ &larr; pop the top path from _frontier_  
