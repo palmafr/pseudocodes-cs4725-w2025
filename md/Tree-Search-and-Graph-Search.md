@@ -22,8 +22,7 @@ __function__ GENERIC-SEARCH(_problem_) __returns__ a solution, or failure
 &emsp;_reached_ &larr; { }    // _An empty  mapping of_ {state: best-path-to-state}  
 &emsp;_solution_ &larr; Failure  
 &emsp;__while__  _solution_ can possibly be improved __do__  
-&emsp;&emsp;&emsp;_p_ &larr; pop the top path from _frontier_  
-&emsp;&emsp;&emsp;__for__ _c_ __in__ _problem_.successors(_p_) __do__   
+&emsp;&emsp;&emsp;__for__ _c_ __in__ _problem_.successors(_frontier_.pop()) __do__   
 &emsp;&emsp;&emsp;&emsp;&emsp;__if__ _c_ not in _reached_ or cost(_c_) < cost(reached[_c_.state]) __then__  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;_reached_[_c_.state] &larr; _c_  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;add _c_ to _frontier_   
