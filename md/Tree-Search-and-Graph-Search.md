@@ -1,33 +1,21 @@
-# TREE-SEARCH and GRAPH-SEARCH
-
+# GENERIC-SEARCH
 
 ## AIMA4e
 
-_Two versions, at different levels of English-like versus code-like._  
 
 __function__ GENERIC-SEARCH(_problem_) __returns__ a solution, or failure  
-&emsp;_frontier_ &larr; a queue containing one path, to the initial state of _problem_  
-&emsp;_solution_ &larr; Failure  
-&emsp;__while__  _solution_ can possibly be improved __do__  
-&emsp;&emsp;&emsp;_parent_ &larr; pop the top path from _frontier_  
+&emsp;_frontier_ &larr; a queue initially containing one path, for the _problem_'s initial state  
+&emsp;_reached_ &larr; a table of {_state_: the best path that reached _state_}; initially empty  
+&emsp;_solution_ &larr; failure  
+&emsp;__while__  _frontier_ is not empty __and__ _solution_ can possibly be improved __do__  
+&emsp;&emsp;&emsp;_parent_ &larr; some node that we choose to remove from _frontier_  
 &emsp;&emsp;&emsp;__for__ _child_ __in__ successors(_parent_) __do__   
-&emsp;&emsp;&emsp;&emsp;&emsp;__if__ _child_ not reached before or cost(_child_) < cost(previous path to _child_'s state) __then__  
+&emsp;&emsp;&emsp;&emsp;&emsp;_s_ &larr; _child_.state  
+&emsp;&emsp;&emsp;&emsp;&emsp;__if__ _s_ is not in _reached_  __or__ _child_ is a cheaper path than _reached_[_s_] __then__  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;_reached_[_s_] &larr; _child_  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;add _child_ to _frontier_  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;__if__ _child_ is a goal and is cheaper than _solution_ __then__  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;_solution_  =  _child_  
-&emsp;__return__ _solution_
-
-__function__ GENERIC-SEARCH(_problem_) __returns__ a solution, or failure  
-&emsp;_frontier_ &larr; a queue containing one path, to the initial state of _problem_  
-&emsp;_reached_ &larr; { }    // _An empty  mapping of_ {state: best-path-to-state}  
-&emsp;_solution_ &larr; Failure  
-&emsp;__while__  _solution_ can possibly be improved __do__  
-&emsp;&emsp;&emsp;__for__ _c_ __in__ _problem_.successors(_frontier_.pop()) __do__   
-&emsp;&emsp;&emsp;&emsp;&emsp;__if__ _c_ not in _reached_ or cost(_c_) < cost(reached[_c_.state]) __then__  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;_reached_[_c_.state] &larr; _c_  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;add _c_ to _frontier_   
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;__if__ _c_ is a goal and cost(c) < cost(solution) __then__  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;_solution_  =  _c_  
 &emsp;__return__ _solution_
 
 ---
@@ -36,7 +24,7 @@ the next path to expand.
 In any specific search algorithm, we specify (1) the criteria for ordering the paths in the frontier,
 and (2) the procedure for determining when it is no longer possible to improve on a solution.
 
-
+# TREE-SEARCH and GRAPH-SEARCH
 ## AIMA3e
 __function__ TREE-SEARCH(_problem_) __returns__ a solution, or failure  
 &emsp;initialize the frontier using the initial state of _problem_  
