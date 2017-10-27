@@ -101,4 +101,4 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
 |<hr/>|<hr/>|<hr/>|
 | 25.9 |  | [MONTE-CARLO-LOCALIZATION](md/Monte-Carlo-Localization.md) |
 |<hr/>|<hr/>|<hr/>|
-| &bull; |  | [POWERS-OF-2](md/Powers-Of-2.md) |
+| 29.1 |  | [POWERS-OF-2](md/Powers-Of-2.md) |
