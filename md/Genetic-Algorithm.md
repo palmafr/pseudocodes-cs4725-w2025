@@ -1,5 +1,29 @@
 # GENETIC-ALGORITHM
 
+## AIMA4e
+
+__function__ GENETIC-ALGORITHM(_population_, FITNESS\-FN) __returns__ an individual  
+&emsp;__inputs__: _population_, the initial random population of individuals  
+&emsp;&emsp;&emsp;&emsp;FITNESS\-FN, a function that measures the fitness of an individual  
+
+&emsp;__repeat__  
+&emsp;&emsp;&emsp;_population_ &larr; [MUTATE(RECOMBINE(SELECT(2, _population_, FITNESS\-FN))) __for__ _i_ __in__ _population_]  
+&emsp;__until__ some individual is fit enough, or enough time has elapsed  
+&emsp;__return__ the best individual in _population_, according to FITNESS\-FN  
+
+---
+__function__ SELECT(ρ, _population_, FITNESS\-FN) __returns__ a set of ρ individuals  
+&emsp;_selection_ &larr; a uniform random sample of 2 * ρ individuals from _population_  
+&emsp;__return__ the top ρ individuals in _selection_, ranked by FITNESS\-FN  
+
+---
+__function__ RECOMBINE(_x_, _y_) __returns__ an individual  
+&emsp;__inputs__: _x_,_y_, parent individuals  
+
+&emsp;_n_ &larr; LENGTH(_x_)  
+&emsp;_crossover_ &larr; random number from 0 to _n_  
+&emsp;__return__ APPEND(_x_[0:_crossover_], _y_[_crossover_: _n_])  
+
 ## AIMA3e
 __function__ GENETIC-ALGORITHM(_population_,FITNESS\-FN) __returns__ an individual  
 &emsp;__inputs__: _population_, a set of individuals  
