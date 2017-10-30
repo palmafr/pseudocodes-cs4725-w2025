@@ -19,10 +19,11 @@ __function__ SELECT(ρ, _population_, FITNESS\-FN) __returns__ a set of ρ indiv
 ---
 __function__ RECOMBINE(_x_, _y_) __returns__ an individual  
 &emsp;__inputs__: _x_,_y_, parent individuals  
-
+  
 &emsp;_n_ &larr; LENGTH(_x_)  
-&emsp;_crossover_ &larr; random number from 0 to _n_  
-&emsp;__return__ APPEND(_x_[0:_crossover_], _y_[_crossover_: _n_])  
+&emsp;_crossover_ &larr; random integer from 0 to _n_  
+&emsp;__return__ APPEND(_x_\[0:_crossover_\], _y_\[_crossover_: _n_\])  
+
 ---
 __Figure__ ?? A genetic algorithm. The algorithm is the same as the one diagrammed in Figure ??, with one variation: in this  version, each recombination of two parents produces only one offspring, not two.
 
