@@ -7,7 +7,8 @@ __function__ GENETIC-ALGORITHM(_population_, FITNESS\-FN) __returns__ an individ
 &emsp;&emsp;&emsp;&emsp;FITNESS\-FN, a function that measures the fitness of an individual  
 
 &emsp;__repeat__  
-&emsp;&emsp;&emsp;_population_ &larr; [MUTATE(RECOMBINE(SELECT(2, _population_, FITNESS\-FN))) __for__ _i_ __in__ _population_]  
+&emsp;&emsp;&emsp;_population_ &larr; [MUTATE(RECOMBINE(SELECT(2, _population_, FITNESS\-FN)))  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;__for__ _i_ __in__ _population_]  
 &emsp;__until__ some individual is fit enough, or enough time has elapsed  
 &emsp;__return__ the best individual in _population_, according to FITNESS\-FN  
 
