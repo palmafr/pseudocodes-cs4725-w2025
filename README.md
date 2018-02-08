@@ -50,7 +50,7 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
 | 11.4 | | Planning problem TODO |
 | 11.5 |  | [HIERARCHICAL-SEARCH](md/Hierarchical-Search.md) |
 | 11.8 |  | [ANGELIC-SEARCH](md/Angelic-Search.md) |
-| 11.10 | | Planning problem TODO |
+| 11.10 | | [DOUBLES-TENNIS-PROBLEM](md/Doubles-Tennis-Problem.md) |
 | 13.1 |  | [DT-AGENT](md/DT-Agent.md) |
 | 14.9 |  | [ENUMERATION-ASK](md/Enumeration-Ask.md) |
 | 14.10 |  | [ELIMINATION-ASK](md/Elimination-Ask.md) |
