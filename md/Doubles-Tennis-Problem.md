@@ -9,7 +9,7 @@ _Action(Hit(actor , Ball),_
 &emsp;PRECOND: _Approaching (Ball, loc) ∧ At(actor , loc)_  
 &emsp;EFFECT: _Returned (Ball))_  
 _Action(Go(actor , to),_  
-&emsp;PRECOND: _At (actor , loc) ∧ to 6 != loc,_  
+&emsp;PRECOND: _At (actor , loc) ∧ to != loc,_  
 &emsp;EFFECT: _At (actor , to) ∧ ¬ At (actor , loc))_  
 
 ---
