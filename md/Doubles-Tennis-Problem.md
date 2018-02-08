@@ -13,6 +13,6 @@ _Action(Go(actor , to),_
 &emsp;EFFECT: _At (actor , to) ∧ ¬ At (actor , loc))_  
 
 ---
-__Figure ??__ The doubles tennis problem. Two actors A and B are playing together and can be in
+__Figure ??__ The doubles tennis problem. Two actors _A_ and _B_ are playing together and can be in
 one of four locations: _LeftBaseline_, _RightBaseline_, _LeftNet_ , and _RightNet_ . The ball can be returned
 only if a player is in the right place. Note that each action must include the actor as an argument.
