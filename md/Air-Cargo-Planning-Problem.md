@@ -1,4 +1,4 @@
-# AIR CARGO PLANNING PROBLEM  
+# AIR-CARGO-PLANNING-PROBLEM  
 
 ## AIMA3e  
 _Init(At (C 1 , SFO) ∧ At (C 2 , JFK ) ∧ At(P 1 , SFO) ∧ At (P 2 , JFK )_  
