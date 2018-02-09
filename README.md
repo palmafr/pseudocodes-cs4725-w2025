@@ -46,11 +46,11 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
 | 10.3 | | Planning problem TODO |
 | 10.7 | | Planning problem TODO |
 | 10.9 |  | [GRAPHPLAN](md/GraphPlan.md) |
-| 11.1 | | Planning problem  TODO |
-| 11.4 | | Planning problem TODO |
+| 11.1 | | [JOB-SHOP-SCHEDULING-PROBLEM](md/Job-Shop-Scheduling-Problem.md)
+| 11.4 | | [REFINEMENT-HIGH-LEVEL-ACTIONS](md/Refinement-High-Level-Actions.md)
 | 11.5 |  | [HIERARCHICAL-SEARCH](md/Hierarchical-Search.md) |
 | 11.8 |  | [ANGELIC-SEARCH](md/Angelic-Search.md) |
-| 11.10 | | Planning problem TODO |
+| 11.10 | | [DOUBLES-TENNIS-PROBLEM](md/Doubles-Tennis-Problem.md) |
 | 13.1 |  | [DT-AGENT](md/DT-Agent.md) |
 | 14.9 |  | [ENUMERATION-ASK](md/Enumeration-Ask.md) |
 | 14.10 |  | [ELIMINATION-ASK](md/Elimination-Ask.md) |
