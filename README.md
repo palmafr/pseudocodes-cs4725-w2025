@@ -42,7 +42,7 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
 | 9.6 |  | [FOL-BC-ASK](md/FOL-BC-Ask.md) |
 | 9.8 |  | [APPEND](md/Append.md) |
 | 10.1 | | [AIR-CARGO-PLANNING-PROBLEM](md/Air-Cargo-Planning-Problem.md) |
-| 10.2 | | Planning problem TODO |
+| 10.2 | | [SPARE-TIRE-PROBLEM](md/Spare-Tire-Problem.md)
 | 10.3 | | Planning problem TODO |
 | 10.7 | | Planning problem TODO |
 | 10.9 |  | [GRAPHPLAN](md/GraphPlan.md) |
