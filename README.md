@@ -1,7 +1,7 @@
 # Pseudocode
 Pseudocode descriptions of the algorithms from [Russell](http://www.cs.berkeley.edu/~russell/) and [Norvig's](http://www.norvig.com/) [Artificial Intelligence - A Modern Approach](http://aima.cs.berkeley.edu/).
 
-The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/master/aima3e-algorithms.pdf) contains all the algorithms exactly as they appear in the third edition of the book. The files listed below duplicate that information but with typography that is not as fancy. When there are differences between the third editiona and fourth edition pseudocode, both versions will be shown in the files listed below. (_Note:_ when editing pseudocode in a `md/*.md` file, put two spaces at the end of a line; this keeps the line separate from the following line.)
+The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/master/aima3e-algorithms.pdf) contains all the algorithms exactly as they appear in the third edition of the book. The files listed below duplicate that information but with typography that is not as fancy. When there are differences between the third edition and fourth edition pseudocode, both versions will be shown in the files listed below. (_Note:_ when editing pseudocode in a `md/*.md` file, put two spaces at the end of a line; this keeps the line separate from the following line.)
 
 
 | AIMA3e | AIMA4e | Pseudo-code (in book)|
