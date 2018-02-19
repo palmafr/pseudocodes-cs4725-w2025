@@ -2,10 +2,10 @@
 
 ## AIMA3e
 __function__ DEPTH-LIMITED-SEARCH(_problem_,_limit_) __returns__ a solution, or failure/cutoff  
-&emsp;__return__ RECURSIVE\-DLS(MAKE\-NODE(_problem_.INTIAL\-STATE),_problem_,_limit_)  
+&emsp;__return__ RECURSIVE\-DLS(MAKE\-NODE(_problem_.INITIAL\-STATE),_problem_,_limit_)  
 
 __function__ RECURSIVE\-DLS(_node_,_problem_,_limit_) __returns__ a solution, or failure/cutoff  
-&emsp;if _problem_.GOAL-TEST(_node_.STATE) __then return__ SOLUTION(_node_)  
+&emsp;__if__ _problem_.GOAL-TEST(_node_.STATE) __then return__ SOLUTION(_node_)  
 &emsp;__else if__ _limit_ = 0 __then return__ _cutoff_  
 &emsp;__else__  
 &emsp;&emsp;&emsp;_cutoff\_occurred?_ &larr; false  
