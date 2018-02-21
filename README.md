@@ -43,7 +43,7 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
 | 9.8 |  | [APPEND](md/Append.md) |
 | 10.1 | | [AIR-CARGO-TRANSPORT-PROBLEM](md/Air-Cargo-Transport-Problem.md) |
 | 10.2 | | [SPARE-TIRE-PROBLEM](md/Spare-Tire-Problem.md) |
-| 10.3 | | Planning problem TODO |
+| 10.3 | | [BLOCKS-WORLD](md/Blocks-World.md) |
 | 10.7 | | Planning problem TODO |
 | 10.9 |  | [GRAPHPLAN](md/GraphPlan.md) |
 | 11.1 | | [JOB-SHOP-SCHEDULING-PROBLEM](md/Job-Shop-Scheduling-Problem.md)
