@@ -44,7 +44,7 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
 | 10.1 | | [AIR-CARGO-TRANSPORT-PROBLEM](md/Air-Cargo-Transport-Problem.md) |
 | 10.2 | | [SPARE-TIRE-PROBLEM](md/Spare-Tire-Problem.md) |
 | 10.3 | | [BLOCKS-WORLD](md/Blocks-World.md) |
-| 10.7 | | Planning problem TODO |
+| 10.7 | | [HAVE-CAKE-AND-EAT-CAKE-TOO-PROBLEM](md/Have-Cake-And-Eat-Cake-Too.md) |
 | 10.9 |  | [GRAPHPLAN](md/GraphPlan.md) |
 | 11.1 | | [JOB-SHOP-SCHEDULING-PROBLEM](md/Job-Shop-Scheduling-Problem.md)
 | 11.4 | | [REFINEMENT-HIGH-LEVEL-ACTIONS](md/Refinement-High-Level-Actions.md)
