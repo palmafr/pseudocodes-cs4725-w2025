@@ -16,4 +16,4 @@ _Action_(_Fly_(_p_, _from_, _to_),
 &emsp;EFFECT: &not; _At_(_p_, _from_) &and; _At_(_p_, _to_))
 
 ---
-__Figure ??__ A PDDL description of an air cargo transportation problem.
+__Figure ??__ A PDDL description of an air cargo transportation planning problem.
