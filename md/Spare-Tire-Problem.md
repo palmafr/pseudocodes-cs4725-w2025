@@ -1,18 +1,18 @@
-# SPARE-TIRE-PROBLEM  
+# SPARE-TIRE-PROBLEM
 
-## AIMA3e  
-_init(Tire(Flat) ∧ Tire(Spare) ∧ At(Flat, Axle) ∧ At (Spare, Trunk ))_  
-_Goal (At (Spare, Axle))_  
-_Action(Remove(obj , loc),_  
-&emsp;PRECOND: _At (obj , loc)_  
-&emsp;EFFECT : _¬ At(obj , loc) ∧ At (obj , Ground ))_  
-_Action(PutOn(t, Axle),_  
-&emsp;PRECOND: _Tire(t) ∧ At(t, Ground ) ∧ ¬ At (Flat, Axle)_  
-&emsp;EFFECT: _¬ At (t, Ground ) ∧ At (t, Axle))_  
-_Action(LeaveOvernight ,_  
+## AIMA3e
+_Init_(_Tire_(_Flat_) &and; _Tire_(_Spare_) &and; _At_(_Flat_, _Axle_) &and; _At_(_Spare_, _Trunk_))  
+_Goal_(_At_(_Spare_, _Axle_))  
+_Action_(_Remove_(_obj_, _loc_),  
+&emsp;PRECOND: _At_(_obj_, _loc_)  
+&emsp;EFFECT: &not; _At_(_obj_, _loc_) &and; _At_(_obj_, _Ground_))  
+_Action_(_PutOn_(_t_, _Axle_),  
+&emsp;PRECOND: _Tire_(_t_) &and; _At_(_t_, _Ground_) &and; &not; _At_(_Flat_, _Axle_)  
+&emsp;EFFECT: &not; _At_(_t_, _Ground_) &and; _At_(_t_, _Axle_))  
+_Action_(_LeaveOvernight_,  
 &emsp;PRECOND:  
-&emsp;EFFECT : _¬ At (Spare, Ground ) ∧ ¬ At(Spare, Axle) ∧ ¬ At (Spare, Trunk )_  
-&emsp;&emsp;&emsp;&emsp;&emsp;_∧ ¬ At(Flat, Ground ) ∧ ¬ At (Flat, Axle) ∧ ¬ At(Flat, Trunk ))_  
+&emsp;EFFECT: &not; _At_(_Spare_, _Ground_) &and; &not; _At_(_Spare_, _Axle_) &and; &not; _At_(_Spare_, _Trunk_)  
+&emsp;&emsp;&emsp;&emsp;&emsp;&and; &not; _At_(_Flat_, _Ground_) &and; &not; _At_(_Flat_, _Axle_) &and; &not; _At_(_Flat_, _Trunk_))
 
 ---
 __Figure ??__ The simple spare tire problem.

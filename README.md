@@ -1,7 +1,7 @@
 # Pseudocode
 Pseudocode descriptions of the algorithms from [Russell](http://www.cs.berkeley.edu/~russell/) and [Norvig's](http://www.norvig.com/) [Artificial Intelligence - A Modern Approach](http://aima.cs.berkeley.edu/).
 
-The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/master/aima3e-algorithms.pdf) contains all the algorithms exactly as they appear in the third edition of the book. The files listed below duplicate that information but with typography that is not as fancy. When there are differences between the third editiona and fourth edition pseudocode, both versions will be shown in the files listed below. (_Note:_ when editing pseudocode in a `md/*.md` file, put two spaces at the end of a line; this keeps the line separate from the following line.)
+The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/master/aima3e-algorithms.pdf) contains all the algorithms exactly as they appear in the third edition of the book. The files listed below duplicate that information but with typography that is not as fancy. When there are differences between the third edition and fourth edition pseudocode, both versions will be shown in the files listed below. (_Note:_ when editing pseudocode in a `md/*.md` file, put two spaces at the end of a line; this keeps the line separate from the following line.)
 
 
 | AIMA3e | AIMA4e | Pseudo-code (in book)|
@@ -28,7 +28,7 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
 | 6.3 |  | [AC-3](md/AC-3.md) |
 | 6.5 |  | [BACKTRACKING-SEARCH](md/Backtracking-Search.md) |
 | 6.8 |  | [MIN-CONFLICTS](md/Min-Conflicts.md) |
-| 5.11 |  | [TREE-CSP-SOLVER](md/Tree-CSP-Solver.md) |
+| 6.11 |  | [TREE-CSP-SOLVER](md/Tree-CSP-Solver.md) |
 | 7.1|  | [KB-AGENT](md/KB-Agent.md) |
 | 7.8 |  | [TT-ENTAILS](md/TT-Entails.md) |
 | 7.9 |  | [PL-RESOLUTION](md/PL-Resolution.md) |
@@ -41,10 +41,11 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
 | 9.3 |  | [FOL-FC-ASK](md/FOL-FC-Ask.md) |
 | 9.6 |  | [FOL-BC-ASK](md/FOL-BC-Ask.md) |
 | 9.8 |  | [APPEND](md/Append.md) |
-| 10.1 | | [AIR-CARGO-PLANNING-PROBLEM](md/Air-Cargo-Planning-Problem.md) |
+
+| 10.1 | | [AIR-CARGO-TRANSPORT-PROBLEM](md/Air-Cargo-Transport-Problem.md) |
 | 10.2 | | [SPARE-TIRE-PROBLEM](md/Spare-Tire-Problem.md) |
-| 10.3 | | [BLOCKS-WORLD-PROBLEM](md/Blocks-World-Problem.md) |
-| 10.7 | | [CAKE-PLANNING-PROBLEM](md/Cake-Planning-Probkem.md) |
+| 10.3 | | [BLOCKS-WORLD](md/Blocks-World.md) |
+| 10.7 | | [HAVE-CAKE-AND-EAT-CAKE-TOO-PROBLEM](md/Have-Cake-And-Eat-Cake-Too.md) |
 | 10.9 |  | [GRAPHPLAN](md/GraphPlan.md) |
 | 11.1 | | [JOB-SHOP-SCHEDULING-PROBLEM](md/Job-Shop-Scheduling-Problem.md)
 | 11.4 | | [REFINEMENT-HIGH-LEVEL-ACTIONS](md/Refinement-High-Level-Actions.md)
