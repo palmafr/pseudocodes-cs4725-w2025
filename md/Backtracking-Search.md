@@ -16,7 +16,7 @@ __function__ BACKTRACK(_assignment_, _csp_) __returns__ a solution, or failure
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;_result_ &larr; BACKTRACK(_assignment_, _csp_)  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;__if__ _result_ &ne; _failure_ __then__  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;__return__ _result_  
-&emsp;&emsp;&emsp;remove \{_var_ = _value_\} and _inferences_ from _assignment_  
+&emsp;&emsp;&emsp;&emsp;remove \{_var_ = _value_\} and _inferences_ from _assignment_  
 &emsp;__return__ _failure_
 
 ---
