@@ -6,6 +6,8 @@ __function__ BACK-PROP-LEARNING-WITH-REGULARIZATION(_examples_, _network_) __ret
 &emsp;&emsp;&emsp;&emsp;_network_, a multilayer network with _L_ layers, weights _w<sub>i,j</sub>_, activation function _g_, regularization parameter &lambda; 
 &emsp;__local variables__: &Delta;, a vector of errors, indexed by network node  
 
+&emsp;&emsp;&emsp;&emsp;&emsp;/\* &Phi; is a function of the weights. It depends on the type of regularization, e.g., for _L<sub>2</sub>_ regularization, &Phi;=&Sigma;<sub>_j_</sub> $\lfloor\$$lfloor$_w<sub>i,j</sub>_$\rfloor$$\rfloor^2$ \*/  
+
 &emsp;__repeat__  
 &emsp;&emsp;&emsp;__for each__ weight _w<sub>i,j</sub>_ in _network_ __do__  
 &emsp;&emsp;&emsp;&emsp;&emsp;_w<sub>i,j</sub>_ &larr; a small random number  
@@ -25,7 +27,7 @@ __function__ BACK-PROP-LEARNING-WITH-REGULARIZATION(_examples_, _network_) __ret
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&Delta;\[_i_\] &larr; _g_&prime;(_in<sub>i</sub>_) &Sigma;<sub>_j_</sub> _w<sub>i,j</sub>_ &Delta;\[_j_\]  + &lambda; &Phi;(_w<sub>i,j</sub>_)
 &emsp;&emsp;&emsp;&emsp;&emsp;/\* _Update every weight in network using deltas_ \*/  
 &emsp;&emsp;&emsp;&emsp;&emsp;__for each__ weight _w<sub>i,j</sub>_ in _network_ __do__ 
-&emsp;&emsp;&emsp;&emsp;&emsp;/\* &Phi; is a function of the weights. It depends on the type of regularization, e.g., for _L<sub>2</sub>_ regularization, &Phi;=&Sigma;<sub>_j_</sub> \lfloor\lfloor_w<sub>i,j</sub>_\rfloor\rfloor^2 \*/  
+
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;_w<sub>i,j</sub>_ &larr; _w<sub>i,j</sub>_ &plus; _&alpha;_ &times; _a<sub>i</sub>_ &times; &Delta;\[_j_\]  
  &emsp;__until__ some stopping criterion is satisfied  
  &emsp;__return__ _network_  
