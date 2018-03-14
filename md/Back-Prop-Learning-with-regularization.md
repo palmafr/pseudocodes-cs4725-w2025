@@ -6,7 +6,7 @@ __function__ BACK-PROP-LEARNING-WITH-REGULARIZATION(_examples_, _network_) __ret
 &emsp;&emsp;&emsp;&emsp;_network_, a multilayer network with _L_ layers, weights _w<sub>i,j</sub>_, activation function _g_, regularization parameter &lambda; 
 &emsp;__local variables__: &Delta;, a vector of errors, indexed by network node  
 
-&emsp;&emsp;&emsp;&emsp;&emsp;/\* &Phi; is a function of the weights. It depends on the type of regularization, e.g., for _L<sub>2</sub>_ regularization, &Phi;=&Sigma;<sub>_j_</sub> ||_w<sub>i,j</sub>_||<sup>2<\sup> \*/  
+&emsp;&emsp;&emsp;&emsp;&emsp;/\* &Phi; is a function of the weights. It depends on the type of regularization, e.g., for _L<sub>2</sub>_ regularization, &Phi;=&Sigma;<sub>_j_</sub> ||_w<sub>i,j</sub>_||<sup>2 \*/  
 
 &emsp;__repeat__  
 &emsp;&emsp;&emsp;__for each__ weight _w<sub>i,j</sub>_ in _network_ __do__  
