@@ -1,7 +1,7 @@
-# BACK-PROP-LEARNING
+# BACK-PROP-LEARNING-WITH-REGULARIZATION
 
 ## AIMA3e
-__function__ BACK-PROP-LEARNING(_examples_, _network_) __returns__ a neural network  
+__function__ BACK-PROP-LEARNING-WITH-REGULARIZATION(_examples_, _network_) __returns__ a neural network  
 &emsp;__inputs__ _examples_, a set of examples, each with input vector __x__ and output vector __y__  
 &emsp;&emsp;&emsp;&emsp;_network_, a multilayer network with _L_ layers, weights _w<sub>i,j</sub>_, activation function _g_, regularization parameter &lambda; 
 &emsp;__local variables__: &Delta;, a vector of errors, indexed by network node  
