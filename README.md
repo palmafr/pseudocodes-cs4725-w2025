@@ -13,10 +13,10 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
 | 3.1 |  | [SIMPLE-PROBLEM-SOLVING-AGENT](md/Simple-Problem-Solving-Agent.md) |
 | 3.7 |  | [TREE-SEARCH and GRAPH-SEARCH](md/Tree-Search-and-Graph-Search.md) |
 | 3.11 |  | [BREADTH-FIRST-SEARCH](md/Breadth-First-Search.md) |
-| 3.14 |  | [UNIFORM-COST-SEARCH](md/Uniform-Cost-Search.md) |
-| 3.17 |  | [DEPTH-LIMITED-SEARCH](md/Depth-Limited-Search.md) |
-| 3.18 |  | [ITERATIVE-DEEPENING-SEARCH](md/Iterative-Deepening-Search.md) |
-| 3.26 |  | [RECURSIVE-BEST-FIRST-SEARCH](md/Recursive-Best-First-Search.md) |
+| 3.13 |  | [UNIFORM-COST-SEARCH](md/Uniform-Cost-Search.md) |
+| 3.16 |  | [DEPTH-LIMITED-SEARCH](md/Depth-Limited-Search.md) |
+| 3.17 |  | [ITERATIVE-DEEPENING-SEARCH](md/Iterative-Deepening-Search.md) |
+| 3.24 |  | [RECURSIVE-BEST-FIRST-SEARCH](md/Recursive-Best-First-Search.md) |
 | 4.2 |  | [HILL-CLIMBING](md/Hill-Climbing.md) |
 | 4.5 |  | [SIMULATED-ANNEALING](md/Simulated-Annealing.md) |
 | 4.8 |  | [GENETIC-ALGORITHM](md/Genetic-Algorithm.md) |
