@@ -1,6 +1,6 @@
 # ITERATIVE-DEEPENING-SEARCH
 
-## AIMA3e
+## AIMA3e / AIMA4e
 __function__ ITERATIVE-DEEPENING-SEARCH(_problem_) __returns__ a solution, or failure  
 &emsp;__for__ _depth_ = 0 to &infin; __do__  
 &emsp;&emsp;&emsp;_result_ &larr; DEPTH\-LIMITED\-SEARCH(_problem_,_depth_)  
