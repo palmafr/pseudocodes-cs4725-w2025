@@ -9,11 +9,11 @@ __function__ DEPTH-LIMITED-SEARCH(_problem_, _l_) __returns__ a solution, or fai
 &emsp;&emsp;&emsp;_parent_ &larr; pop(_frontier_)  
 &emsp;&emsp;&emsp;__if__ depth(_parent_) > l __then__  
 &emsp;&emsp;&emsp;&emsp;&emsp;_solution_ &larr; cutoff  
-&emsp;&emsp;&emsp;&emsp;&emsp;__else__  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;__for__ _child_ __in__ successors(_parent_) __do__  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;__if__ _child_ is a goal __then__  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;__return__ _child_  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;add _child_ to __frontier__  
+&emsp;&emsp;&emsp;__else__  
+&emsp;&emsp;&emsp;&emsp;&emsp;__for__ _child_ __in__ successors(_parent_) __do__  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;__if__ _child_ is a goal __then__  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;__return__ _child_  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;add _child_ to __frontier__  
 &emsp;__return__  _solution_  
 
 ---
