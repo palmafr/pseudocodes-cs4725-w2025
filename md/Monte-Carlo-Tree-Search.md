@@ -12,24 +12,34 @@ __function__ MONTE-CARLO-TREE-SEARCH(_state_) __returns__ an action
 
 ---
 
-__function__ PLAYOUT(_tree_) __returns__ _updated tree_
-&emsp;_node_ &larr; _tree_
-&emsp;__while__ _node_ is not terminal and was already in _tree_ __do__
-&emsp;&emsp;&emsp;_move_ &larr; SELECT(_node_)
-&emsp;&emsp;&emsp;_node_ &larr; FOLLOW\-LINK(_node_,_move_)
-&emsp;_outcome_ &larr; SIMULATION(_node_.STATE)
-&emsp;UPDATE(_node_,_outcome_)
-&emsp;__return__ _tree_
+__function__ PLAYOUT(_tree_) __returns__ _updated tree_  
+&emsp;_node_ &larr; _tree_  
+&emsp;__while__ _node_ is not terminal and was already in _tree_ __do__  
+&emsp;&emsp;&emsp;_move_ &larr; SELECT(_node_)  
+&emsp;&emsp;&emsp;_node_ &larr; FOLLOW\-LINK(_node_,_move_)  
+&emsp;_outcome_ &larr; SIMULATION(_node_.STATE)  
+&emsp;UPDATE(_node_,_outcome_)  
+&emsp;__return__ _tree_  
 
 ---
 
-__function__ SELECT(_node_) __returns__ _an action_
-&emsp;__return__ argmax<sub>m &isin; FEASIBLE\-ACTIONS(_node_)</sub> UCB(RESULT(_node_,_m_))
+__function__ SELECT(_node_) __returns__ _an action_  
+&emsp;__return__ argmax<sub>m &isin; FEASIBLE\-ACTIONS(_node_)</sub> UCB(RESULT(_node_,_m_))  
 
 ---
 
-__function__ UCB(_child_) __returns__ _a number_
-&emsp;__return__ _child_.VALUE + C &times;<span class="math">$\sqrt{\frac{\log{_child_.PARENT.N}}{_child_.N}}$</span>
+__function__ UCB(_child_) __returns__ _a number_  
+&emsp;__return__ _child_.VALUE + C &times; <math>
+ <mrow>
+  <mn>1</mn>
+  <msqrt>
+  <mfrac>
+   <mi>log _child_.PARENT.N</mi>
+   <mi>_child_.N</mi>
+  </mfrac>
+</msqrt>
+ </mrow>
+</math> 
 
 
 ---
