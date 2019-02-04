@@ -29,7 +29,7 @@ __function__ SELECT(_node_) __returns__ _an action_
 ---
 
 __function__ UCB(_child_) __returns__ _a number_  
-&emsp;__return__ _child_.VALUE + C &times; <a href="https://www.codecogs.com/eqnedit.php?latex=\sqrt{\frac{\log{\mathrm{child.PARENT.N}}}{2}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sqrt{\frac{\log{\mathrm{child.PARENT.N}}}{2}}" title="\sqrt{\frac{\log{\mathrm{child.PARENT.N}}}{2}}" /></a> 
+&emsp;__return__ _child_.VALUE + C &times; <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\sqrt{\frac{\log{child.PARENT.N}}{child.N}}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\inline&space;\sqrt{\frac{\log{child.PARENT.N}}{child.N}}" title="\sqrt{\frac{\log{child.PARENT.N}}{child.N}}" /></a> 
 
 
 ---
