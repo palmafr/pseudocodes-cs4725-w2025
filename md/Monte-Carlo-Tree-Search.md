@@ -29,17 +29,7 @@ __function__ SELECT(_node_) __returns__ _an action_
 ---
 
 __function__ UCB(_child_) __returns__ _a number_  
-&emsp;__return__ _child_.VALUE + C &times; <math>
- <mrow>
-  <mn>1</mn>
-  <msqrt>
-  <mfrac>
-   <mi>log _child_.PARENT.N</mi>
-   <mi>_child_.N</mi>
-  </mfrac>
-</msqrt>
- </mrow>
-</math> 
+&emsp;__return__ _child_.VALUE + C &times; <a href="https://www.codecogs.com/eqnedit.php?latex=\sqrt{\frac{\log{\mathrm{child.PARENT.N}}}{2}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sqrt{\frac{\log{\mathrm{child.PARENT.N}}}{2}}" title="\sqrt{\frac{\log{\mathrm{child.PARENT.N}}}{2}}" /></a> 
 
 
 ---
