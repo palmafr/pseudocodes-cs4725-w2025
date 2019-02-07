@@ -5,7 +5,7 @@
 
 __function__ GRAPH-SEARCH(_problem_) __returns__ a solution, or failure  
 &emsp;_frontier_ &larr; a queue initially containing one path, for the _problem_'s initial state  
-&emsp;_reached_ &larr; a table of {_state_: the best path that reached _state_}; initially empty  
+&emsp;_reached_ &larr; a table of {_state_: _node_}; initially empty  
 &emsp;_solution_ &larr; failure  
 &emsp;__while__  _frontier_ is not empty __and__ _solution_ can possibly be improved __do__  
 &emsp;&emsp;&emsp;_parent_ &larr; some node that we choose to remove from _frontier_  
