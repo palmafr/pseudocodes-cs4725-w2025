@@ -11,7 +11,7 @@ The file [aima3e-algorithms.pdf](https://github.com/aimacode/pseudocode/blob/mas
 | 2.6 |  | [SIMPLE-REFLEX-AGENT](md/Simple-Reflex-Agent.md) |
 | 2.8 |  | [MODEL-BASED-REFLEX-AGENT](md/Model-Based-Reflex-Agent.md) |
 | 3.1 |  | [SIMPLE-PROBLEM-SOLVING-AGENT](md/Simple-Problem-Solving-Agent.md) |
-| 3.7 |  | [TREE-SEARCH and GRAPH-SEARCH](md/Tree-Search-and-Graph-Search.md) |
+| 3.7 |  | [GRAPH-SEARCH](md/Tree-Search-and-Graph-Search.md) |
 | 3.11 |  | [BREADTH-FIRST-SEARCH](md/Breadth-First-Search.md) |
 | 3.13 |  | [UNIFORM-COST-SEARCH](md/Uniform-Cost-Search.md) |
 | 3.16 |  | [DEPTH-LIMITED-SEARCH](md/Depth-Limited-Search.md) |
