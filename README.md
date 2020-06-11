@@ -7,7 +7,7 @@ The algorithms as they appear in the book are available in pdf format:
 The files listed below give the same algorithms, but in markdown format. **We need help checking that the 4th edition versions are correct.** We are in the process of updating from the old  [3rd edition](https://github.com/aimacode/pseudocode/blob/master/aima3e-algorithms.pdf) algorithms. (_Note:_ when editing pseudocode in a `md/*.md` file, put **two spaces at the end of a line**; this keeps the line separate from the following line.)
 
 
-| AIMA3e | AIMA4e | Pseudo-code (in book)|
+| 3rd ed. | 4th ed. | Pseudo-code Algorithm|
 |:------:|:------:|:---------------------|
 | 2.3 | 2.7 | [TABLE-DRIVEN-AGENT](md/Table-Driven-Agent.md) |
 | 2.4 | 2.8 | [REFLEX-VACUUM-AGENT](md/Reflex-Vacuum-Agent.md) |
@@ -17,7 +17,7 @@ The files listed below give the same algorithms, but in markdown format. **We ne
 | 3.7 | 3.7 | [BEST-FIRST-SEARCH](md/Tree-Search-and-Graph-Search.md) |
 | 3.11 |3.9  | [BREADTH-FIRST-SEARCH](md/Breadth-First-Search.md) |
 | 3.17 | 3.12 | [ITERATIVE-DEEPENING-SEARCH](md/Iterative-Deepening-Search.md) |
-| x    | 3.14 | [BIBF-SEARCH]() (Bididerctional Best-First) |
+| x    | 3.14 | [BIBF-SEARCH]() (Bidirectional Best-First) |
 | 3.13 |  x| [UNIFORM-COST-SEARCH](md/Uniform-Cost-Search.md) |
 | 3.16 |  x| [DEPTH-LIMITED-SEARCH](md/Depth-Limited-Search.md) |
 | 3.24 | 3.22 | [RECURSIVE-BEST-FIRST-SEARCH](md/Recursive-Best-First-Search.md) |
@@ -68,7 +68,7 @@ The files listed below give the same algorithms, but in markdown format. **We ne
 | x |15.5 | [OUPM](md/oupm.md) (for citation extraction) |
 | x | 15.6 | [NET-VISA](md/net-visa.md) |
 | x | 15.9 | [RADAR](md/radar.md) (OUPM for radar tracking)|
-| x | 15.11| [GENERATE-IMAGE(md/generate-image.md)|
+| x | 15.11| [GENERATE-IMAGE](md/generate-image.md)|
 | x |15.15| [GENERATE-MARKOV-LETTERS](md/generate-markov-letters.md)|
 | 16.9 | 16.9 | [INFORMATION-GATHERING-AGENT](md/Information-Gathering-Agent.md) |
 | 17.4 | 17.6 | [VALUE-ITERATION](md/Value-Iteration.md) |
