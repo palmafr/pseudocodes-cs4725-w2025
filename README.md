@@ -59,7 +59,7 @@ The files listed below give the same algorithms, but in markdown format. **We ne
 | 14.9 |13.11  | [ENUMERATION-ASK](md/Enumeration-Ask.md) |
 | 14.10 | 13.13 | [ELIMINATION-ASK](md/Elimination-Ask.md) |
 | 14.12 |13.16  | [PRIOR-SAMPLE](md/Prior-Sample.md) |
-| 14.13 13.17|  | [REJECTION-SAMPLING](md/Rejection-Sampling.md) |
+| 14.13|13.17 | [REJECTION-SAMPLING](md/Rejection-Sampling.md) |
 | 14.14 |13.18  | [LIKELIHOOD-WEIGHTING](md/Likelihood-Weighting.md) |
 | 14.15 | 13.20 | [GIBBS-ASK](md/Gibbs-Ask.md) |
 | 15.4 | 14.4 | [FORWARD-BACKWARD](md/Forward-Backward.md) |
