@@ -2,7 +2,7 @@
 Pseudocode descriptions of the algorithms from [Russell](http://www.cs.berkeley.edu/~russell/) and [Norvig's](http://www.norvig.com/) [Artificial Intelligence - A Modern Approach](http://aima.cs.berkeley.edu/).
 
 The algorithms as they appear in the book are available in pdf format:
-- [algorithms.pdf](https://github.com/aimacode/pseudocode/blob/master/aima4e-algorithms.pdf)
+- [**algorithms.pdf**](https://github.com/aimacode/pseudocode/blob/master/aima4e-algorithms.pdf)
 
 The files listed below give the same algorithms, but in markdown format. **We need help checking that the 4th edition versions are correct.** We are in the process of updating from the old  [3rd edition](https://github.com/aimacode/pseudocode/blob/master/aima3e-algorithms.pdf) algorithms. (_Note:_ when editing pseudocode in a `md/*.md` file, put **two spaces at the end of a line**; this keeps the line separate from the following line.)
 
