@@ -38,6 +38,8 @@ Pick any pseudocode and implement in your favourite programming language!
 
 # Problem 2: Kaggle Challenge!
 
-Search and pick any model (simple or complex) from Kaggle, test run it, and IMPROVE its performance by any margin using your own trick!
+Search and pick any model (simple or complex) from Kaggle
+-- Test run it
+-- IMPROVE its performance by any margin using your own trick!
 
 Source: [https://www.kaggle.com/models](https://www.kaggle.com/models)
