@@ -10,7 +10,6 @@ Below are list of pseudocode descriptions of the algorithms from [Russell](http:
 |:------:|:---------------------|
 | 3.7 | [BEST-FIRST-SEARCH](md/Tree-Search-and-Graph-Search.md) |
 |3.9  | [BREADTH-FIRST-SEARCH](md/Breadth-First-Search.md) |
-| 3.12 | [ITERATIVE-DEEPENING-SEARCH](md/Iterative-Deepening-Search.md) |
 | 3.14 | [BIBF-SEARCH]() (Bidirectional Best-First) |
 | 3.22 | [RECURSIVE-BEST-FIRST-SEARCH](md/Recursive-Best-First-Search.md) |
 | 5.3 | [MINIMAX-SEARCH](md/Minimax-Decision.md) |
