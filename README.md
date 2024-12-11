@@ -16,7 +16,6 @@ Below are list of pseudocode descriptions of the algorithms from [Russell](http:
 | 5.3 | [MINIMAX-SEARCH](md/Minimax-Decision.md) |
 | 5.7 | [ALPHA-BETA-SEARCH](md/Alpha-Beta-Search.md) |
 | 5.11 | [MONTE-CARLO-TREE-SEARCH](md/Monte-Carlo-Tree-Search.md) 
-|  7.1 | [KB-AGENT](md/KB-Agent.md) |
 | 7.10 | [TT-ENTAILS](md/TT-Entails.md) |
 | 7.13 | [PL-RESOLUTION](md/PL-Resolution.md) |
 |7.15  | [PL-FC-ENTAILS?](md/PL-FC-Entails.md) |
