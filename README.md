@@ -8,7 +8,7 @@ Pseudocode descriptions of the algorithms from [Russell](http://www.cs.berkeley.
 | 3.12 | [ITERATIVE-DEEPENING-SEARCH](md/Iterative-Deepening-Search.md) |
 | 3.14 | [BIBF-SEARCH]() (Bidirectional Best-First) |
 | 3.22 | [RECURSIVE-BEST-FIRST-SEARCH](md/Recursive-Best-First-Search.md) |
-| 5.3 | [MINIMAX-SEARCH](md/Minimax-Decision.md) (was MINIMAX-DECISION in 3e) |
+| 5.3 | [MINIMAX-SEARCH](md/Minimax-Decision.md) |
 | 5.7 | [ALPHA-BETA-SEARCH](md/Alpha-Beta-Search.md) |
 | 5.11 | [MONTE-CARLO-TREE-SEARCH](md/Monte-Carlo-Tree-Search.md) 
 |  7.1 | [KB-AGENT](md/KB-Agent.md) |
