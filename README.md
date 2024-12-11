@@ -16,8 +16,6 @@ Below are list of pseudocode descriptions of the algorithms from [Russell](http:
 | 19.5 | [LEARN-DECISION-TREE](md/Decision-Tree-Learning.md) |
 | 19.11 | [DECISION-LIST-LEARNING](md/Decision-List-Learning.md) |
 | 19.25 | [ADABOOST](md/AdaBoost.md) |
-|23.5  | [CYK-PARSE](md/CYK-Parse.md) |
-| 23.8| [SENTENCE-TREE](md/Sentence-Tree.md) |
 
 ---
 
