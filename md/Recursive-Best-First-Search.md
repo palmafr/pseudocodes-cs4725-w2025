@@ -1,6 +1,5 @@
 # RECURSIVE-BEST-FIRST-SEARCH
 
-## AIMA3e
 __function__ RECURSIVE-BEST-FIRST-SEARCH(_problem_) __returns__ a solution, or failure  
 &emsp;__return__ RBFS(_problem_,MAKE\-NODE(_problem_.INITIAL\-STATE),&infin;)  
 
