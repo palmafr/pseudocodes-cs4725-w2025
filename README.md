@@ -13,10 +13,7 @@ Below are list of pseudocode descriptions of the algorithms from [Russell](http:
 | 3.22 | [RECURSIVE-BEST-FIRST-SEARCH](md/Recursive-Best-First-Search.md) |
 | 5.3 | [MINIMAX-SEARCH](md/Minimax-Decision.md) |
 | 5.7 | [ALPHA-BETA-SEARCH](md/Alpha-Beta-Search.md) |
-| 12.1 | [DT-AGENT](md/DT-Agent.md) |
-| 16.9 | [INFORMATION-GATHERING-AGENT](md/Information-Gathering-Agent.md) |
 | 19.5 | [LEARN-DECISION-TREE](md/Decision-Tree-Learning.md) |
-| 19.8 | [CROSS-VALIDATION-WRAPPER](md/Cross-Validation-Wrapper.md) |
 | 19.11 | [DECISION-LIST-LEARNING](md/Decision-List-Learning.md) |
 | 19.25 | [ADABOOST](md/AdaBoost.md) |
 |23.5  | [CYK-PARSE](md/CYK-Parse.md) |
