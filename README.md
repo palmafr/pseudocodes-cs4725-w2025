@@ -1,6 +1,8 @@
 # Problem #1
-## Pseudocode
-Pseudocode descriptions of the algorithms from [Russell](http://www.cs.berkeley.edu/~russell/) and [Norvig's](http://www.norvig.com/) [Artificial Intelligence - A Modern Approach](http://aima.cs.berkeley.edu/).
+
+Below are list of pseudocode descriptions of the algorithms from [Russell](http://www.cs.berkeley.edu/~russell/) and [Norvig's](http://www.norvig.com/) [Artificial Intelligence - A Modern Approach](http://aima.cs.berkeley.edu/).
+
+Pick any pseudocode and implement in your favourite programming language!
 
 | 4th ed. | Pseudo-code Algorithm|
 |:------:|:---------------------|
@@ -34,5 +36,8 @@ Pseudocode descriptions of the algorithms from [Russell](http://www.cs.berkeley.
 | 23.8| [SENTENCE-TREE](md/Sentence-Tree.md) |
 
 
-# Problem #2
-https://www.kaggle.com/models
+# Problem 2: Kaggle Challenge!
+
+Search and pick any model (simple or complex) from Kaggle, test run it, and IMPROVE its performance by any margin using your own trick!
+
+Source: [https://www.kaggle.com/models](https://www.kaggle.com/models)
